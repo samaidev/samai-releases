@@ -1,6 +1,6 @@
 {
   "schema": "samai.catalog/1.0",
-  "updated": "2026-11-18T14:24:53+00:00",
+  "updated": "2026-11-18T14:29:17+00:00",
   "channels": {
     "ms": {
       "endpoint": "https://modelscope.cn",
@@ -67,9 +67,7 @@
       "visibility": "public",
       "build": "github-actions",
       "platforms": [
-        "win",
-        "mac",
-        "linux"
+        "win"
       ],
       "latest": "0.7.19",
       "files": {
@@ -195,9 +193,7 @@
       "visibility": "private",
       "build": "wei-runner",
       "platforms": [
-        "win",
-        "mac",
-        "linux"
+        "win"
       ],
       "latest": "3.4.19",
       "files": {
@@ -222,7 +218,10 @@
       "visibility": "public",
       "build": "github-actions",
       "platforms": [
-        "win"
+        "win",
+        "mac",
+        "linux",
+        "android"
       ],
       "latest": "1.4.11",
       "files": {
@@ -306,7 +305,9 @@
       "visibility": "public",
       "build": "wei-runner",
       "platforms": [
-        "win"
+        "win",
+        "mac",
+        "linux"
       ],
       "latest": "1.7.3",
       "files": {
@@ -333,6 +334,46 @@
               }
             }
           ]
+        },
+        "mac": {
+          "name": "samvnc-tray-darwin-amd64",
+          "kind": "portable",
+          "sha256": "f6bf127c8d4709b2b961768f0ef41efbaf0fb2925c3622abf145e021a6d785b2",
+          "size": 18712704,
+          "url": {
+            "github": "https://github.com/samaidev/samvnc/releases/download/v1.7.3/samvnc-tray-darwin-amd64"
+          },
+          "extras": [
+            {
+              "name": "samvnc-tray-darwin-arm64",
+              "kind": "portable",
+              "sha256": "e53f63899485b7a7c2ca0072b766413c040f1edea0a65abaa525ba006c04aa5b",
+              "size": 17616290,
+              "url": {
+                "github": "https://github.com/samaidev/samvnc/releases/download/v1.7.3/samvnc-tray-darwin-arm64"
+              }
+            }
+          ]
+        },
+        "linux": {
+          "name": "samvnc-tray-linux-amd64",
+          "kind": "portable",
+          "sha256": "32c816f7bbfc44f9f931483163dbe2d19fc5540e9553374d3b9c7c6eedc0cb8e",
+          "size": 21102776,
+          "url": {
+            "github": "https://github.com/samaidev/samvnc/releases/download/v1.7.3/samvnc-tray-linux-amd64"
+          },
+          "extras": [
+            {
+              "name": "samvnc-tray-linux-arm64",
+              "kind": "portable",
+              "sha256": "8886fa2e20b00ef6b5ee1cf9f8db97a20bb69d7c58ab020f6412eb5ab7df2ef5",
+              "size": 19726520,
+              "url": {
+                "github": "https://github.com/samaidev/samvnc/releases/download/v1.7.3/samvnc-tray-linux-arm64"
+              }
+            }
+          ]
         }
       },
       "note": "M2 试点：wei 自托管 runner 跑私密链路；存量构建在 D:\\samai_ci\\samvnc"
@@ -345,7 +386,8 @@
       "visibility": "private",
       "build": "wei-runner",
       "platforms": [
-        "win"
+        "win",
+        "linux"
       ],
       "latest": "1.56.175",
       "files": {
@@ -359,6 +401,15 @@
             "hf": "https://huggingface.co/datasets/mojoz/teambot-releases/resolve/main/v1.56.175/TeamBot-1.56.175-windows-amd64-setup.exe",
             "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/teambot-releases/repo?Revision=master&FilePath=v1.56.175/TeamBot-1.56.175-windows-amd64-setup.exe"
           }
+        },
+        "linux": {
+          "name": "teambot",
+          "kind": "portable",
+          "sha256": "48591ed7fc8898bd7c5513ab14cb9cf82806fc3fbe6f49dcac27ff6dad590ecd",
+          "size": 0,
+          "url": {
+            "site": "https://teambot.samai.cc/downloads/teambot"
+          }
         }
       }
     },
@@ -370,8 +421,7 @@
       "visibility": "private",
       "build": "wei-runner",
       "platforms": [
-        "win",
-        "linux"
+        "win"
       ],
       "latest": "2.0.4",
       "files": {
@@ -412,11 +462,147 @@
             "github": "https://github.com/samaidev/zagent_r/releases/download/v0.32.133/ZAgent-0.32.133-windows-amd64-setup.exe",
             "hf": "https://huggingface.co/datasets/gasschina/zagent-releases/resolve/main/v0.32.133/ZAgent-0.32.133-windows-amd64-setup.exe",
             "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/zagent-releases/repo?Revision=master&FilePath=v0.32.133/ZAgent-0.32.133-windows-amd64-setup.exe"
+          },
+          "extras": [
+            {
+              "name": "zagent-windows-amd64.zip",
+              "kind": "portable",
+              "sha256": "a051a8d7d8613d8ed6f282d557b0786a95b7118cdf4e77cb82fb3967cf2288d2",
+              "size": 0,
+              "url": {
+                "site": "https://zagent.samai.cc/downloads/zagent-windows-amd64.zip"
+              }
+            }
+          ]
+        },
+        "mac": {
+          "name": "zagent-darwin-amd64.tar.gz",
+          "kind": "portable",
+          "sha256": "bb0d74f4c81c34c17002ab839c99cb649dc30a861e4f87f1788a57f53fb3a7f4",
+          "size": 0,
+          "url": {
+            "site": "https://zagent.samai.cc/downloads/zagent-darwin-amd64.tar.gz"
+          },
+          "extras": [
+            {
+              "name": "zagent-darwin-arm64.tar.gz",
+              "kind": "portable",
+              "sha256": "fcd84dedd352c02286413859529735d03665a3ecefd9029927eafe6299688f70",
+              "size": 0,
+              "url": {
+                "site": "https://zagent.samai.cc/downloads/zagent-darwin-arm64.tar.gz"
+              }
+            }
+          ]
+        },
+        "linux": {
+          "name": "zagent-linux-amd64.tar.gz",
+          "kind": "portable",
+          "sha256": "584cea5ea007eee8a5d438c9308f23938ff9720dbd7e575d54cfb9a462ff4736",
+          "size": 0,
+          "url": {
+            "site": "https://zagent.samai.cc/downloads/zagent-linux-amd64.tar.gz"
+          },
+          "extras": [
+            {
+              "name": "zagent-linux-arm64.tar.gz",
+              "kind": "portable",
+              "sha256": "72be4b899eefb76eff7a76e626f7fcd78e37ad5472c01b530c6c55e472c600c3",
+              "size": 0,
+              "url": {
+                "site": "https://zagent.samai.cc/downloads/zagent-linux-arm64.tar.gz"
+              }
+            }
+          ]
+        },
+        "android": {
+          "name": "zagent-android-arm64-0.32.134.apk",
+          "kind": "portable",
+          "sha256": "07cc605c78361e38e1b4419152cf9ecfbcaef53e6d044de4912e29373d94e08f",
+          "size": 287670608,
+          "url": {
+            "github": "https://github.com/samaidev/zagent_r/releases/download/v0.32.134/zagent-android-arm64-0.32.134.apk"
           }
         }
       },
       "note": "延续 zagent_r 模式：私密源码 → wei 编译 → 公开仓存产物"
+    },
+    {
+      "id": "samcommand",
+      "name": "SamCommand",
+      "desc": "远程可控命令执行代理（跨平台单文件，samai.cc 镜像分发）",
+      "repo": "samaidev/samcommand",
+      "visibility": "private",
+      "build": "wei-runner",
+      "platforms": [
+        "win",
+        "mac",
+        "linux"
+      ],
+      "latest": "1.9.6",
+      "files": {
+        "win": {
+          "name": "samcommand-windows-amd64.exe",
+          "kind": "portable",
+          "sha256": "82aa82b06f8fa876328157f8db5eb84f5cc4cd5dadd1423821e72149a661991d",
+          "size": 0,
+          "url": {
+            "site": "https://samai.cc/samcommand/downloads/samcommand-windows-amd64.exe"
+          }
+        },
+        "mac": {
+          "name": "samcommand-darwin-amd64",
+          "kind": "portable",
+          "sha256": "14f3fbc46b60db5aa8eff70c542fccbc2923a8d1fd0452544a845907c9d58951",
+          "size": 0,
+          "url": {
+            "site": "https://samai.cc/samcommand/downloads/samcommand-darwin-amd64"
+          },
+          "extras": [
+            {
+              "name": "samcommand-darwin-arm64",
+              "kind": "portable",
+              "sha256": "2faeed3946dd0f1823f88728faab6975e08f6dd4ae671698add66f55ceb89d13",
+              "size": 0,
+              "url": {
+                "site": "https://samai.cc/samcommand/downloads/samcommand-darwin-arm64"
+              }
+            }
+          ]
+        },
+        "linux": {
+          "name": "samcommand-linux-amd64",
+          "kind": "portable",
+          "sha256": "980855caa5ca2679baed10669c6ed4eb1e2c519f9a60f7433e4ace53d75f217b",
+          "size": 0,
+          "url": {
+            "site": "https://samai.cc/samcommand/downloads/samcommand-linux-amd64"
+          },
+          "extras": [
+            {
+              "name": "samcommand-linux-arm64",
+              "kind": "portable",
+              "sha256": "b1618a80600300170dafbb8d82729a3472f9999e4d58df5de0556c99e7d7f97f",
+              "size": 0,
+              "url": {
+                "site": "https://samai.cc/samcommand/downloads/samcommand-linux-arm64"
+              }
+            },
+            {
+              "name": "samcommand-linux-arm",
+              "kind": "portable",
+              "sha256": "864d24f6d01437f2a647649366648db5bedfac774558f1ac102d50968dda5024",
+              "size": 0,
+              "url": {
+                "site": "https://samai.cc/samcommand/downloads/samcommand-linux-arm"
+              }
+            }
+          ]
+        }
+      },
+      "note": "发布镜像由 samai_ci wf3 同步至 samai.cc/samcommand/downloads（仓库私有，GH 资产匿名不可达）"
     }
   ],
-  "note_ms_revision": "MS 直链统一使用 Revision=master（latest-only；catalog 每次发版重写，无需 tag 锁定）"
+  "note_ms_revision": "MS 直链统一使用 Revision=master（latest-only；catalog 每次发版重写，无需 tag 锁定）",
+  "note_catalog_v2": "v2: 补录 samvnc/teambot/zagent mac/linux 条目与 samcommand 产品；site 渠道 = samai.cc 站点镜像（wf 同步 latest-only）；ms 直链统一 Revision=master"
 }
