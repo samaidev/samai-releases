@@ -1,6 +1,6 @@
 {
   "schema": "samai.catalog/1.0",
-  "updated": "2026-11-18T10:12:56+00:00",
+  "updated": "2026-11-18T10:14:23+00:00",
   "channels": {
     "ms": {
       "endpoint": "https://modelscope.cn",
@@ -59,33 +59,8 @@
         "mac",
         "linux"
       ],
-      "latest": "0.7.20",
-      "files": {
-        "win": {
-          "name": "SamOffice-desktop-windows-x64-0.7.20.zip",
-          "kind": "portable",
-          "sha256": "ffb4bc4ed2e4dede2a673341e4a285550e42ea347e9dc75f0958e19702748ab2",
-          "size": 24412663,
-          "url": {
-            "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.20/SamOffice-desktop-windows-x64-0.7.20.zip",
-            "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.20/SamOffice-desktop-windows-x64-0.7.20.zip",
-            "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.20&FilePath=v0.7.20/SamOffice-desktop-windows-x64-0.7.20.zip"
-          },
-          "extras": [
-            {
-              "name": "SamOffice-setup-0.7.20.exe",
-              "kind": "portable",
-              "sha256": "94d938c9c37047b0f76ce73f92a6454321c624339ab52635f28f826b4a47eca8",
-              "size": 20134569,
-              "url": {
-                "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.20/SamOffice-setup-0.7.20.exe",
-                "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.20/SamOffice-setup-0.7.20.exe",
-                "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.20&FilePath=v0.7.20/SamOffice-setup-0.7.20.exe"
-              }
-            }
-          ]
-        }
-      },
+      "latest": null,
+      "files": {},
       "note": "M1 试点：第一个跑通公开仓三渠道全链路的产品"
     },
     {
@@ -200,8 +175,66 @@
       "platforms": [
         "win"
       ],
-      "latest": null,
-      "files": {}
+      "latest": "1.4.11",
+      "files": {
+        "android": {
+          "name": "samcdp-android.apk",
+          "kind": "portable",
+          "sha256": "ffb4bcd4aa8d39252b31c41827b4fb6a334c556294545490e7d881dd9694ba2a",
+          "size": 10602903,
+          "url": {
+            "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-android.apk",
+            "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-android.apk",
+            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.11&FilePath=v1.4.11/samcdp-android.apk"
+          }
+        },
+        "mac": {
+          "name": "samcdp-darwin-amd64",
+          "kind": "portable",
+          "sha256": "1084a6f9239f55f9019430bb9a3930877ab29ceccce949c3ff63f113b7319370",
+          "size": 17222816,
+          "url": {
+            "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-darwin-amd64",
+            "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-darwin-amd64",
+            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.11&FilePath=v1.4.11/samcdp-darwin-amd64"
+          },
+          "extras": [
+            {
+              "name": "samcdp-darwin-arm64",
+              "kind": "portable",
+              "sha256": "73b7d12a7054b0ab54d783db5e714009239d7f3c2004e1349b5a0836fcd63d94",
+              "size": 16342242,
+              "url": {
+                "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-darwin-arm64",
+                "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-darwin-arm64",
+                "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.11&FilePath=v1.4.11/samcdp-darwin-arm64"
+              }
+            }
+          ]
+        },
+        "linux": {
+          "name": "samcdp-linux-amd64",
+          "kind": "portable",
+          "sha256": "d9c7ed2f69387ca4dfaa5f34bd66433c9fbb9a4a56a393c98d8304775f2fb00e",
+          "size": 18792600,
+          "url": {
+            "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-linux-amd64",
+            "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-linux-amd64",
+            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.11&FilePath=v1.4.11/samcdp-linux-amd64"
+          }
+        },
+        "win": {
+          "name": "samcdp-windows-amd64.exe",
+          "kind": "portable",
+          "sha256": "53023636851daeb8807f2ca8883c7106ec47c29fb3b748e79728707296c5dcd0",
+          "size": 23134208,
+          "url": {
+            "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-windows-amd64.exe",
+            "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-windows-amd64.exe",
+            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.11&FilePath=v1.4.11/samcdp-windows-amd64.exe"
+          }
+        }
+      }
     },
     {
       "id": "samvnc",
