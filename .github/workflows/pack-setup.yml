@@ -101,7 +101,7 @@ jobs:
           New-Item -ItemType Directory -Force -Path packaging/stage | Out-Null
           Copy-Item ci/wrapper.iss packaging/
           Copy-Item stage/* packaging/stage/ -Recurse -Force
-          & "${{ steps.iscc.outputs.path }}" "/DMyAppName=TeamBot" "/DAppId=TEAMBOT-2026-SAMAIDEV" "/DExeName=teambot.exe" "/DMyAppVersion=$v" "/DCnMessages=${{ steps.cnisl.outputs.path }}" "/DOutputBaseFilename=TeamBot-$v-windows-amd64-setup.exe" /Q packaging/wrapper.iss
+          & "${{ steps.iscc.outputs.path }}" "/DMyAppName=TeamBot" "/DAppId=TEAMBOT-2026-SAMAIDEV" "/DExeName=teambot.exe" "/DMyAppVersion=$v" "/DCnMessages=${{ steps.cnisl.outputs.path }}" "/DOutputBaseFilename=TeamBot-$v-windows-amd64-setup" /Q packaging/wrapper.iss
           if ($LASTEXITCODE -ne 0) { throw "ISCC failed with $LASTEXITCODE" }
           Move-Item packaging/dist/*.exe dist/
           Get-ChildItem dist | Select-Object Name, Length
