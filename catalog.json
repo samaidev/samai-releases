@@ -1,0 +1,202 @@
+{
+  "schema": "samai.catalog/1.0",
+  "updated": "2026-11-18T14:30:00+08:00",
+  "channels": {
+    "ms": {
+      "endpoint": "https://modelscope.cn",
+      "accounts": ["liuwei168", "ctz168", "luoyunlan168", "zhuqingshui168", "zhubaohua168"],
+      "catalog_repo": "luoyunlan168/samai-releases",
+      "note": "5 个魔搭真实账号；产品按 sha256(id)%5 恒定分摊；catalog.json 承载在 luoyunlan168/samai-releases（samcommand 同主，站点域名 samai.cc 可直接反代）"
+    },
+    "hf": {
+      "endpoint": "https://huggingface.co",
+      "mirror": "https://hf-mirror.com",
+      "accounts": ["tchbcn", "gasschina", "mojoz"],
+      "catalog_repo": "tchbcn/samai-releases",
+      "note": "3 个 HF 真实账号（tchbcn/gasschina/mojoz）；产品按 sha256(id)%3 分摊；国内下载自动走 hf-mirror 域名"
+    },
+    "github": {
+      "endpoint": "https://github.com",
+      "org": "samaidev",
+      "catalog_repo": "samaidev/samai-releases",
+      "note": "catalog 单一事实源主仓；私密产品产物延续 *_r 发布仓模式"
+    }
+  },
+  "products": [
+    {
+      "id": "pcguy",
+      "name": "PCGuy",
+      "desc": "Windows 系统管家（Go+Wails）：清理/进程/内存/启动项，内嵌集团产品面板（saminstaller 一键安装）",
+      "repo": "samaidev/pcguy",
+      "visibility": "private",
+      "build": "wei-runner",
+      "platforms": ["win"],
+      "latest": null,
+      "files": {},
+      "note": "私有仓走 wei 打包；面板集成代码见 samai_pack/pcguy_panel/"
+    },
+    {
+      "id": "samoffice",
+      "name": "SamOffice",
+      "desc": "跨平台办公套件（Go + Web，Wails + HTTP 双模式）",
+      "repo": "samaidev/samoffice",
+      "visibility": "public",
+      "build": "github-actions",
+      "platforms": ["win", "mac", "linux"],
+      "latest": null,
+      "files": {},
+      "note": "M1 试点：第一个跑通公开仓三渠道全链路的产品"
+    },
+    {
+      "id": "openbox",
+      "name": "OpenBox",
+      "desc": "开源跨平台压缩/解压工具（Go+Fyne，中英双语）。v0.4.6 新增：解压完成弹窗提示 + 一键打开文件夹",
+      "repo": "samaidev/openbox",
+      "visibility": "public",
+      "build": "github-actions",
+      "platforms": ["win", "mac", "linux"],
+      "latest": "0.4.6",
+      "released_at": "2026-11-18",
+      "files": {
+        "win": {
+          "name": "OpenBox-0.4.6-windows-amd64-setup.exe",
+          "kind": "installer",
+          "sha256": "835491d118f0edaa866cb559508756252fc574388233a8a3fe247c9775c9d741",
+          "size": 16114002,
+          "url": {
+            "github": "https://github.com/samaidev/openbox/releases/download/v0.4.6/OpenBox-0.4.6-windows-amd64-setup.exe",
+            "hf": "https://huggingface.co/datasets/mojoz/openbox-releases/resolve/main/v0.4.6/OpenBox-0.4.6-windows-amd64-setup.exe",
+            "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/openbox-releases/repo?Revision=master&FilePath=v0.4.6/OpenBox-0.4.6-windows-amd64-setup.exe"
+          },
+          "extras": [
+            {
+              "name": "openbox-windows-amd64.zip",
+              "kind": "portable",
+              "sha256": "79c6fd0c1b5483fb75073b5aaef83945833e469f521968f6d6256523e7dd2973",
+              "size": 18491200,
+              "url": {
+                "github": "https://github.com/samaidev/openbox/releases/download/v0.4.6/openbox-windows-amd64.zip",
+                "hf": "https://huggingface.co/datasets/mojoz/openbox-releases/resolve/main/v0.4.6/openbox-windows-amd64.zip",
+                "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/openbox-releases/repo?Revision=master&FilePath=v0.4.6/openbox-windows-amd64.zip"
+              }
+            }
+          ]
+        },
+        "mac": {
+          "name": "OpenBox-0.4.6-macos.pkg",
+          "kind": "installer",
+          "sha256": "53b7901811008a8a9174c904b7eae2880f945d1aa092a827981664cc1f87c20f",
+          "size": 19076942,
+          "url": {
+            "github": "https://github.com/samaidev/openbox/releases/download/v0.4.6/OpenBox-0.4.6-macos.pkg",
+            "hf": "https://huggingface.co/datasets/mojoz/openbox-releases/resolve/main/v0.4.6/OpenBox-0.4.6-macos.pkg",
+            "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/openbox-releases/repo?Revision=master&FilePath=v0.4.6/OpenBox-0.4.6-macos.pkg"
+          },
+          "extras": [
+            {
+              "name": "openbox-macos-arm64.tar.gz",
+              "kind": "portable",
+              "sha256": "ee80ee9334d1edcb2bb0749efecb7d7b5ccd2252b3d41b497c9848b6eb541cb2",
+              "size": 18880759,
+              "url": {
+                "github": "https://github.com/samaidev/openbox/releases/download/v0.4.6/openbox-macos-arm64.tar.gz",
+                "hf": "https://huggingface.co/datasets/mojoz/openbox-releases/resolve/main/v0.4.6/openbox-macos-arm64.tar.gz",
+                "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/openbox-releases/repo?Revision=master&FilePath=v0.4.6/openbox-macos-arm64.tar.gz"
+              }
+            },
+            {
+              "name": "openbox-macos-amd64.tar.gz",
+              "kind": "portable",
+              "sha256": "5a128151ce0a913533fc0edb8a869ca5ffc435386487c6811191c8966821562d",
+              "size": 19847624,
+              "url": {
+                "github": "https://github.com/samaidev/openbox/releases/download/v0.4.6/openbox-macos-amd64.tar.gz",
+                "hf": "https://huggingface.co/datasets/mojoz/openbox-releases/resolve/main/v0.4.6/openbox-macos-amd64.tar.gz",
+                "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/openbox-releases/repo?Revision=master&FilePath=v0.4.6/openbox-macos-amd64.tar.gz"
+              }
+            }
+          ]
+        },
+        "linux": {
+          "name": "openbox-linux-amd64.tar.gz",
+          "kind": "portable",
+          "sha256": "c0f19a1888030c6c5c6a9b30fcb9c74699992b9b53ad969ecb4b5712bb4a196a",
+          "size": 18592180,
+          "url": {
+            "github": "https://github.com/samaidev/openbox/releases/download/v0.4.6/openbox-linux-amd64.tar.gz",
+            "hf": "https://huggingface.co/datasets/mojoz/openbox-releases/resolve/main/v0.4.6/openbox-linux-amd64.tar.gz",
+            "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/openbox-releases/repo?Revision=master&FilePath=v0.4.6/openbox-linux-amd64.tar.gz"
+          }
+        }
+      }
+    },
+    {
+      "id": "samime",
+      "name": "SamIME",
+      "desc": "GoIME 跨平台中文输入法（Go，私有仓）",
+      "repo": "samaidev/samime",
+      "visibility": "private",
+      "build": "wei-runner",
+      "platforms": ["win", "mac", "linux"],
+      "latest": null,
+      "files": {}
+    },
+    {
+      "id": "samcdp",
+      "name": "SamCDP",
+      "desc": "数据平台产品（Java，公开仓）",
+      "repo": "samaidev/samcdp",
+      "visibility": "public",
+      "build": "github-actions",
+      "platforms": ["win"],
+      "latest": null,
+      "files": {}
+    },
+    {
+      "id": "samvnc",
+      "name": "SamVNC",
+      "desc": "VNC+RDP 远程控制（Go，经 aitun.cc TCP 隧道；公开仓，wei 目录已有存量构建可迁移）",
+      "repo": "samaidev/samvnc",
+      "visibility": "public",
+      "build": "wei-runner",
+      "platforms": ["win"],
+      "latest": null,
+      "files": {},
+      "note": "M2 试点：wei 自托管 runner 跑私密链路；存量构建在 D:\\samai_ci\\samvnc"
+    },
+    {
+      "id": "teambot",
+      "name": "TeamBot",
+      "desc": "团队协作 Bot（Python，PyPI 发布 teambot-ai，Cython 编译保护，私有仓）",
+      "repo": "samaidev/teambot",
+      "visibility": "private",
+      "build": "wei-runner",
+      "platforms": ["win"],
+      "latest": null,
+      "files": {}
+    },
+    {
+      "id": "oneapi",
+      "name": "OneAPI",
+      "desc": "聚合 LLM API 网关（Go，私有仓，Render 部署 oneapi-gateway）",
+      "repo": "samaidev/oneapi",
+      "visibility": "private",
+      "build": "wei-runner",
+      "platforms": ["win", "linux"],
+      "latest": null,
+      "files": {}
+    },
+    {
+      "id": "zagent",
+      "name": "ZAgent",
+      "desc": "多平台 Agent（Go，多平台编译 + APK，产物公开在 samaidev/zagent_r，私有源码）",
+      "repo": "samaidev/zagent",
+      "visibility": "private",
+      "build": "wei-runner",
+      "platforms": ["win", "mac", "linux", "android"],
+      "latest": null,
+      "files": {},
+      "note": "延续 zagent_r 模式：私密源码 → wei 编译 → 公开仓存产物"
+    }
+  ]
+}
