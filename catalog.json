@@ -1,6 +1,6 @@
 {
   "schema": "samai.catalog/1.0",
-  "updated": "2026-11-18T10:14:23+00:00",
+  "updated": "2026-11-18T11:08:58+00:00",
   "channels": {
     "ms": {
       "endpoint": "https://modelscope.cn",
@@ -224,15 +224,28 @@
           }
         },
         "win": {
-          "name": "samcdp-windows-amd64.exe",
-          "kind": "portable",
-          "sha256": "53023636851daeb8807f2ca8883c7106ec47c29fb3b748e79728707296c5dcd0",
-          "size": 23134208,
+          "name": "SamCDP-1.4.11-windows-amd64-setup.exe",
+          "kind": "installer",
+          "sha256": "6b4433243e9608774f6570945e6790309951a1ef344b8ace3fd7de9bb6084098",
+          "size": 10745343,
           "url": {
-            "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-windows-amd64.exe",
-            "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-windows-amd64.exe",
-            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.11&FilePath=v1.4.11/samcdp-windows-amd64.exe"
-          }
+            "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/SamCDP-1.4.11-windows-amd64-setup.exe",
+            "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/SamCDP-1.4.11-windows-amd64-setup.exe",
+            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.11&FilePath=v1.4.11/SamCDP-1.4.11-windows-amd64-setup.exe"
+          },
+          "extras": [
+            {
+              "name": "samcdp-windows-amd64.exe",
+              "kind": "portable",
+              "sha256": "53023636851daeb8807f2ca8883c7106ec47c29fb3b748e79728707296c5dcd0",
+              "size": 23134208,
+              "url": {
+                "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-windows-amd64.exe",
+                "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-windows-amd64.exe",
+                "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.11&FilePath=v1.4.11/samcdp-windows-amd64.exe"
+              }
+            }
+          ]
         }
       }
     },
