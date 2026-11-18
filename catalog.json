@@ -1,6 +1,6 @@
 {
   "schema": "samai.catalog/1.0",
-  "updated": "2026-11-18T11:38:45+00:00",
+  "updated": "2026-11-18T11:39:55+00:00",
   "channels": {
     "ms": {
       "endpoint": "https://modelscope.cn",
@@ -59,8 +59,33 @@
         "mac",
         "linux"
       ],
-      "latest": null,
-      "files": {},
+      "latest": "0.7.19",
+      "files": {
+        "win": {
+          "name": "SamOffice-setup-0.7.19.exe",
+          "kind": "installer",
+          "sha256": "8c4e97f4444b88df46a92e2996bffd7e26ad3d4c6a268df17b9238f6fc4fbbb6",
+          "size": 20140875,
+          "url": {
+            "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.19/SamOffice-setup-0.7.19.exe",
+            "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.19/SamOffice-setup-0.7.19.exe",
+            "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.19&FilePath=v0.7.19/SamOffice-setup-0.7.19.exe"
+          },
+          "extras": [
+            {
+              "name": "SamOffice-desktop-windows-x64-0.7.19.zip",
+              "kind": "portable",
+              "sha256": "3dd818faff9d32d2df968205b09f1e18be36051159a2575add564904c71af8d8",
+              "size": 24412436,
+              "url": {
+                "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.19/SamOffice-desktop-windows-x64-0.7.19.zip",
+                "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.19/SamOffice-desktop-windows-x64-0.7.19.zip",
+                "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.19&FilePath=v0.7.19/SamOffice-desktop-windows-x64-0.7.19.zip"
+              }
+            }
+          ]
+        }
+      },
       "note": "M1 试点：第一个跑通公开仓三渠道全链路的产品"
     },
     {
@@ -162,8 +187,20 @@
         "mac",
         "linux"
       ],
-      "latest": null,
-      "files": {}
+      "latest": "3.4.19",
+      "files": {
+        "win": {
+          "name": "SamIME-windows-x64-setup.exe",
+          "kind": "installer",
+          "sha256": "655e8e7f86ba42b467f5da1527406ab2880707226d569ba30ef3e9955ad7d8aa",
+          "size": 61073874,
+          "url": {
+            "github": "https://github.com/samaidev/samime_r/releases/download/v3.4.19/SamIME-windows-x64-setup.exe",
+            "hf": "https://huggingface.co/datasets/mojoz/samime-releases/resolve/main/v3.4.19/SamIME-windows-x64-setup.exe",
+            "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/samime-releases/repo?Revision=v3.4.19&FilePath=v3.4.19/SamIME-windows-x64-setup.exe"
+          }
+        }
+      }
     },
     {
       "id": "samcdp",
@@ -273,33 +310,8 @@
       "platforms": [
         "win"
       ],
-      "latest": "1.56.175",
-      "files": {
-        "win": {
-          "name": "TeamBot-1.56.175-windows-amd64-setup.exe.exe",
-          "kind": "portable",
-          "sha256": "ab5c89c11f79b682759f435c92c6b8b244e1e90fdbf328c39c0b5e80722994f3",
-          "size": 125574852,
-          "url": {
-            "github": "https://github.com/samaidev/samai-releases/releases/download/v1.56.175/TeamBot-1.56.175-windows-amd64-setup.exe.exe",
-            "hf": "https://huggingface.co/datasets/mojoz/teambot-releases/resolve/main/v1.56.175/TeamBot-1.56.175-windows-amd64-setup.exe.exe",
-            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/teambot-releases/repo?Revision=v1.56.175&FilePath=v1.56.175/TeamBot-1.56.175-windows-amd64-setup.exe.exe"
-          },
-          "extras": [
-            {
-              "name": "teambot.exe",
-              "kind": "portable",
-              "sha256": "b998c53be13adb2e55a50a8e251a8bc297e195f65293251363a13243fd0fac32",
-              "size": 125639090,
-              "url": {
-                "github": "https://github.com/samaidev/samai-releases/releases/download/v1.56.175/teambot.exe",
-                "hf": "https://huggingface.co/datasets/mojoz/teambot-releases/resolve/main/v1.56.175/teambot.exe",
-                "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/teambot-releases/repo?Revision=v1.56.175&FilePath=v1.56.175/teambot.exe"
-              }
-            }
-          ]
-        }
-      }
+      "latest": null,
+      "files": {}
     },
     {
       "id": "oneapi",
