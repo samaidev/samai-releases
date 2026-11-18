@@ -1,6 +1,6 @@
 {
   "schema": "samai.catalog/1.0",
-  "updated": "2026-11-18T12:09:22+00:00",
+  "updated": "2026-11-18T14:24:53+00:00",
   "channels": {
     "ms": {
       "endpoint": "https://modelscope.cn",
@@ -53,7 +53,7 @@
           "url": {
             "github": "https://github.com/samaidev/pcguy_r/releases/download/v1.3.82/PCGuy-setup-1.3.82.exe",
             "hf": "https://huggingface.co/datasets/tchbcb/pcguy-releases/resolve/main/v1.3.82/PCGuy-setup-1.3.82.exe",
-            "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/pcguy-releases/repo?Revision=v1.3.82&FilePath=v1.3.82/PCGuy-setup-1.3.82.exe"
+            "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/pcguy-releases/repo?Revision=master&FilePath=v1.3.82/PCGuy-setup-1.3.82.exe"
           }
         }
       },
@@ -81,7 +81,7 @@
           "url": {
             "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.19/SamOffice-setup-0.7.19.exe",
             "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.19/SamOffice-setup-0.7.19.exe",
-            "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.19&FilePath=v0.7.19/SamOffice-setup-0.7.19.exe"
+            "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=master&FilePath=v0.7.19/SamOffice-setup-0.7.19.exe"
           },
           "extras": [
             {
@@ -92,7 +92,7 @@
               "url": {
                 "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.19/SamOffice-desktop-windows-x64-0.7.19.zip",
                 "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.19/SamOffice-desktop-windows-x64-0.7.19.zip",
-                "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.19&FilePath=v0.7.19/SamOffice-desktop-windows-x64-0.7.19.zip"
+                "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=master&FilePath=v0.7.19/SamOffice-desktop-windows-x64-0.7.19.zip"
               }
             }
           ]
@@ -209,7 +209,7 @@
           "url": {
             "github": "https://github.com/samaidev/samime_r/releases/download/v3.4.19/SamIME-windows-x64-setup.exe",
             "hf": "https://huggingface.co/datasets/mojoz/samime-releases/resolve/main/v3.4.19/SamIME-windows-x64-setup.exe",
-            "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/samime-releases/repo?Revision=v3.4.19&FilePath=v3.4.19/SamIME-windows-x64-setup.exe"
+            "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/samime-releases/repo?Revision=master&FilePath=v3.4.19/SamIME-windows-x64-setup.exe"
           }
         }
       }
@@ -234,7 +234,7 @@
           "url": {
             "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-android.apk",
             "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-android.apk",
-            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.11&FilePath=v1.4.11/samcdp-android.apk"
+            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=master&FilePath=v1.4.11/samcdp-android.apk"
           }
         },
         "mac": {
@@ -245,7 +245,7 @@
           "url": {
             "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-darwin-amd64",
             "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-darwin-amd64",
-            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.11&FilePath=v1.4.11/samcdp-darwin-amd64"
+            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=master&FilePath=v1.4.11/samcdp-darwin-amd64"
           },
           "extras": [
             {
@@ -256,7 +256,7 @@
               "url": {
                 "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-darwin-arm64",
                 "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-darwin-arm64",
-                "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.11&FilePath=v1.4.11/samcdp-darwin-arm64"
+                "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=master&FilePath=v1.4.11/samcdp-darwin-arm64"
               }
             }
           ]
@@ -269,7 +269,7 @@
           "url": {
             "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-linux-amd64",
             "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-linux-amd64",
-            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.11&FilePath=v1.4.11/samcdp-linux-amd64"
+            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=master&FilePath=v1.4.11/samcdp-linux-amd64"
           }
         },
         "win": {
@@ -280,7 +280,7 @@
           "url": {
             "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/SamCDP-1.4.11-windows-amd64-setup.exe",
             "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/SamCDP-1.4.11-windows-amd64-setup.exe",
-            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.11&FilePath=v1.4.11/SamCDP-1.4.11-windows-amd64-setup.exe"
+            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=master&FilePath=v1.4.11/SamCDP-1.4.11-windows-amd64-setup.exe"
           },
           "extras": [
             {
@@ -291,7 +291,7 @@
               "url": {
                 "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-windows-amd64.exe",
                 "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-windows-amd64.exe",
-                "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.11&FilePath=v1.4.11/samcdp-windows-amd64.exe"
+                "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=master&FilePath=v1.4.11/samcdp-windows-amd64.exe"
               }
             }
           ]
@@ -318,7 +318,7 @@
           "url": {
             "github": "https://github.com/samaidev/samvnc/releases/download/v1.7.3/SamVNC-1.7.3-windows-amd64-setup.exe",
             "hf": "https://huggingface.co/datasets/mojoz/samvnc-releases/resolve/main/v1.7.3/SamVNC-1.7.3-windows-amd64-setup.exe",
-            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samvnc-releases/repo?Revision=v1.7.3&FilePath=v1.7.3/SamVNC-1.7.3-windows-amd64-setup.exe"
+            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samvnc-releases/repo?Revision=master&FilePath=v1.7.3/SamVNC-1.7.3-windows-amd64-setup.exe"
           },
           "extras": [
             {
@@ -329,7 +329,7 @@
               "url": {
                 "github": "https://github.com/samaidev/samvnc/releases/download/v1.7.3/samvnc-tray-windows-amd64.exe",
                 "hf": "https://huggingface.co/datasets/mojoz/samvnc-releases/resolve/main/v1.7.3/samvnc-tray-windows-amd64.exe",
-                "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samvnc-releases/repo?Revision=v1.7.3&FilePath=v1.7.3/samvnc-tray-windows-amd64.exe"
+                "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samvnc-releases/repo?Revision=master&FilePath=v1.7.3/samvnc-tray-windows-amd64.exe"
               }
             }
           ]
@@ -357,7 +357,7 @@
           "url": {
             "github": "https://github.com/samaidev/samai-releases/releases/download/v1.56.175/TeamBot-1.56.175-windows-amd64-setup.exe",
             "hf": "https://huggingface.co/datasets/mojoz/teambot-releases/resolve/main/v1.56.175/TeamBot-1.56.175-windows-amd64-setup.exe",
-            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/teambot-releases/repo?Revision=v1.56.175&FilePath=v1.56.175/TeamBot-1.56.175-windows-amd64-setup.exe"
+            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/teambot-releases/repo?Revision=master&FilePath=v1.56.175/TeamBot-1.56.175-windows-amd64-setup.exe"
           }
         }
       }
@@ -383,7 +383,7 @@
           "url": {
             "github": "https://github.com/samaidev/oneapi_r/releases/download/v2.0.4/OneAPI-2.0.4-windows-amd64-setup.exe",
             "hf": "https://huggingface.co/datasets/mojoz/oneapi-releases/resolve/main/v2.0.4/OneAPI-2.0.4-windows-amd64-setup.exe",
-            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/oneapi-releases/repo?Revision=v2.0.4&FilePath=v2.0.4/OneAPI-2.0.4-windows-amd64-setup.exe"
+            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/oneapi-releases/repo?Revision=master&FilePath=v2.0.4/OneAPI-2.0.4-windows-amd64-setup.exe"
           }
         }
       }
@@ -411,11 +411,12 @@
           "url": {
             "github": "https://github.com/samaidev/zagent_r/releases/download/v0.32.133/ZAgent-0.32.133-windows-amd64-setup.exe",
             "hf": "https://huggingface.co/datasets/gasschina/zagent-releases/resolve/main/v0.32.133/ZAgent-0.32.133-windows-amd64-setup.exe",
-            "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/zagent-releases/repo?Revision=v0.32.133&FilePath=v0.32.133/ZAgent-0.32.133-windows-amd64-setup.exe"
+            "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/zagent-releases/repo?Revision=master&FilePath=v0.32.133/ZAgent-0.32.133-windows-amd64-setup.exe"
           }
         }
       },
       "note": "延续 zagent_r 模式：私密源码 → wei 编译 → 公开仓存产物"
     }
-  ]
+  ],
+  "note_ms_revision": "MS 直链统一使用 Revision=master（latest-only；catalog 每次发版重写，无需 tag 锁定）"
 }
