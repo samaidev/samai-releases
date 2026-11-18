@@ -1,6 +1,6 @@
 {
   "schema": "samai.catalog/1.0",
-  "updated": "2026-11-18T11:39:55+00:00",
+  "updated": "2026-11-18T11:44:35+00:00",
   "channels": {
     "ms": {
       "endpoint": "https://modelscope.cn",
@@ -310,8 +310,20 @@
       "platforms": [
         "win"
       ],
-      "latest": null,
-      "files": {}
+      "latest": "1.56.175",
+      "files": {
+        "win": {
+          "name": "TeamBot-1.56.175-windows-amd64-setup.exe",
+          "kind": "installer",
+          "sha256": "ab5c89c11f79b682759f435c92c6b8b244e1e90fdbf328c39c0b5e80722994f3",
+          "size": 125574852,
+          "url": {
+            "github": "https://github.com/samaidev/samai-releases/releases/download/v1.56.175/TeamBot-1.56.175-windows-amd64-setup.exe",
+            "hf": "https://huggingface.co/datasets/mojoz/teambot-releases/resolve/main/v1.56.175/TeamBot-1.56.175-windows-amd64-setup.exe",
+            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/teambot-releases/repo?Revision=v1.56.175&FilePath=v1.56.175/TeamBot-1.56.175-windows-amd64-setup.exe"
+          }
+        }
+      }
     },
     {
       "id": "oneapi",
@@ -324,8 +336,20 @@
         "win",
         "linux"
       ],
-      "latest": null,
-      "files": {}
+      "latest": "2.0.4",
+      "files": {
+        "win": {
+          "name": "OneAPI-2.0.4-windows-amd64-setup.exe",
+          "kind": "installer",
+          "sha256": "7a14219f2c52e8cf84c49670a22656951da1239425829f06715631d226d8b14b",
+          "size": 7532411,
+          "url": {
+            "github": "https://github.com/samaidev/oneapi_r/releases/download/v2.0.4/OneAPI-2.0.4-windows-amd64-setup.exe",
+            "hf": "https://huggingface.co/datasets/mojoz/oneapi-releases/resolve/main/v2.0.4/OneAPI-2.0.4-windows-amd64-setup.exe",
+            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/oneapi-releases/repo?Revision=v2.0.4&FilePath=v2.0.4/OneAPI-2.0.4-windows-amd64-setup.exe"
+          }
+        }
+      }
     },
     {
       "id": "zagent",
@@ -340,8 +364,20 @@
         "linux",
         "android"
       ],
-      "latest": null,
-      "files": {},
+      "latest": "0.32.133",
+      "files": {
+        "win": {
+          "name": "ZAgent-0.32.133-windows-amd64-setup.exe",
+          "kind": "installer",
+          "sha256": "36cdb35cab61e4a11179c345a9e6d88883f2fc9327c18b46eb3ac33127ebca19",
+          "size": 19814120,
+          "url": {
+            "github": "https://github.com/samaidev/zagent_r/releases/download/v0.32.133/ZAgent-0.32.133-windows-amd64-setup.exe",
+            "hf": "https://huggingface.co/datasets/gasschina/zagent-releases/resolve/main/v0.32.133/ZAgent-0.32.133-windows-amd64-setup.exe",
+            "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/zagent-releases/repo?Revision=v0.32.133&FilePath=v0.32.133/ZAgent-0.32.133-windows-amd64-setup.exe"
+          }
+        }
+      },
       "note": "延续 zagent_r 模式：私密源码 → wei 编译 → 公开仓存产物"
     }
   ]
