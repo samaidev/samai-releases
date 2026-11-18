@@ -1,6 +1,6 @@
 {
   "schema": "samai.catalog/1.0",
-  "updated": "2026-11-18T11:36:07+00:00",
+  "updated": "2026-11-18T11:38:45+00:00",
   "channels": {
     "ms": {
       "endpoint": "https://modelscope.cn",
@@ -273,8 +273,33 @@
       "platforms": [
         "win"
       ],
-      "latest": null,
-      "files": {}
+      "latest": "1.56.175",
+      "files": {
+        "win": {
+          "name": "TeamBot-1.56.175-windows-amd64-setup.exe.exe",
+          "kind": "portable",
+          "sha256": "ab5c89c11f79b682759f435c92c6b8b244e1e90fdbf328c39c0b5e80722994f3",
+          "size": 125574852,
+          "url": {
+            "github": "https://github.com/samaidev/samai-releases/releases/download/v1.56.175/TeamBot-1.56.175-windows-amd64-setup.exe.exe",
+            "hf": "https://huggingface.co/datasets/mojoz/teambot-releases/resolve/main/v1.56.175/TeamBot-1.56.175-windows-amd64-setup.exe.exe",
+            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/teambot-releases/repo?Revision=v1.56.175&FilePath=v1.56.175/TeamBot-1.56.175-windows-amd64-setup.exe.exe"
+          },
+          "extras": [
+            {
+              "name": "teambot.exe",
+              "kind": "portable",
+              "sha256": "b998c53be13adb2e55a50a8e251a8bc297e195f65293251363a13243fd0fac32",
+              "size": 125639090,
+              "url": {
+                "github": "https://github.com/samaidev/samai-releases/releases/download/v1.56.175/teambot.exe",
+                "hf": "https://huggingface.co/datasets/mojoz/teambot-releases/resolve/main/v1.56.175/teambot.exe",
+                "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/teambot-releases/repo?Revision=v1.56.175&FilePath=v1.56.175/teambot.exe"
+              }
+            }
+          ]
+        }
+      }
     },
     {
       "id": "oneapi",
@@ -303,33 +328,8 @@
         "linux",
         "android"
       ],
-      "latest": "0.32.133",
-      "files": {
-        "win": {
-          "name": "ZAgent-0.32.133-windows-amd64-setup.exe.exe",
-          "kind": "portable",
-          "sha256": "36cdb35cab61e4a11179c345a9e6d88883f2fc9327c18b46eb3ac33127ebca19",
-          "size": 19814120,
-          "url": {
-            "github": "https://github.com/samaidev/zagent_r/releases/download/v0.32.133/ZAgent-0.32.133-windows-amd64-setup.exe.exe",
-            "hf": "https://huggingface.co/datasets/gasschina/zagent-releases/resolve/main/v0.32.133/ZAgent-0.32.133-windows-amd64-setup.exe.exe",
-            "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/zagent-releases/repo?Revision=v0.32.133&FilePath=v0.32.133/ZAgent-0.32.133-windows-amd64-setup.exe.exe"
-          },
-          "extras": [
-            {
-              "name": "zagent-windows-amd64.zip",
-              "kind": "portable",
-              "sha256": "e7afdfcc967a9c5a2839e2d8d75d537f7ff15387f6a6bcaea03de157c1daf528",
-              "size": 24753355,
-              "url": {
-                "github": "https://github.com/samaidev/zagent_r/releases/download/v0.32.133/zagent-windows-amd64.zip",
-                "hf": "https://huggingface.co/datasets/gasschina/zagent-releases/resolve/main/v0.32.133/zagent-windows-amd64.zip",
-                "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/zagent-releases/repo?Revision=v0.32.133&FilePath=v0.32.133/zagent-windows-amd64.zip"
-              }
-            }
-          ]
-        }
-      },
+      "latest": null,
+      "files": {},
       "note": "延续 zagent_r 模式：私密源码 → wei 编译 → 公开仓存产物"
     }
   ]
