@@ -47,7 +47,7 @@ def list_products() -> list[dict]:
 
 def install_product(product: str, platform: str | None = None,
                     progress_cb=None, portable: bool = False) -> str:
-    """下载并安装任一集团产品，返回安装包本地路径。progress_cb(done_bytes, total) 可选。
+    r"""下载并安装任一集团产品，返回安装包本地路径。progress_cb(done_bytes, total) 可选。
     portable=True 时下载便携版（extras，免安装），解包到 %LOCALAPPDATA%\SamAI\<id> 或 ~/.samai/<id>。"""
     cat = _catalog()
     name, entry = di.resolve_file(cat, product, platform, portable=portable)
