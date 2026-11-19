@@ -1,669 +1,707 @@
 {
-  "schema": "samai.catalog/1.0",
-  "updated": "2026-11-19T02:50:33+00:00",
-  "channels": {
-    "ms": {
-      "endpoint": "https://modelscope.cn",
-      "accounts": [
-        "liuwei168",
-        "ctz168",
-        "luoyunlan168",
-        "zhuqingshui168",
-        "zhubaohua168"
-      ],
-      "catalog_repo": "luoyunlan168/samai-releases",
-      "note": "5 个魔搭真实账号；产品按 sha256(id)%5 恒定分摊；catalog.json 承载在 luoyunlan168/samai-releases（samcommand 同主，站点域名 samai.cc 可直接反代）"
-    },
-    "hf": {
-      "endpoint": "https://huggingface.co",
-      "mirror": "https://hf-mirror.com",
-      "accounts": [
-        "tchbcb",
-        "gasschina",
-        "mojoz"
-      ],
-      "catalog_repo": "tchbcb/samai-releases",
-      "note": "3 个 HF 真实账号（tchbcb/gasschina/mojoz；资产库中 tchbcn 标签实际对应 HF 用户 tchbcb）；产品按 sha256(id)%3 分摊；国内下载自动走 hf-mirror 域名"
-    },
-    "github": {
-      "endpoint": "https://github.com",
-      "org": "samaidev",
-      "catalog_repo": "samaidev/samai-releases",
-      "note": "catalog 单一事实源主仓；私密产品产物延续 *_r 发布仓模式"
-    }
+ "schema": "samai.catalog/1.0",
+ "updated": "2026-11-19T03:30:54+00:00",
+ "channels": {
+  "ms": {
+   "endpoint": "https://modelscope.cn",
+   "accounts": [
+    "liuwei168",
+    "ctz168",
+    "luoyunlan168",
+    "zhuqingshui168",
+    "zhubaohua168"
+   ],
+   "catalog_repo": "luoyunlan168/samai-releases",
+   "note": "5 个魔搭真实账号；产品按 sha256(id)%5 恒定分摊；catalog.json 承载在 luoyunlan168/samai-releases（samcommand 同主，站点域名 samai.cc 可直接反代）"
   },
-  "products": [
-    {
-      "id": "pcguy",
-      "name": "PCGuy",
-      "desc": "Windows 系统管家（Go+Wails）：清理/进程/内存/启动项，内嵌集团产品面板（saminstaller 一键安装）",
-      "repo": "samaidev/pcguy",
-      "visibility": "private",
-      "build": "wei-runner",
-      "platforms": [
-        "win"
-      ],
-      "latest": "1.3.82",
-      "files": {
-        "win": {
-          "name": "PCGuy-setup-1.3.82.exe",
-          "kind": "installer",
-          "sha256": "d1223a7134dc9577d5710aba91c4778a5cf6be62f5380b40f8c4f85734a1becf",
-          "size": 21622550,
-          "url": {
-            "github": "https://github.com/samaidev/pcguy_r/releases/download/v1.3.82/PCGuy-setup-1.3.82.exe",
-            "hf": "https://huggingface.co/datasets/tchbcb/pcguy-releases/resolve/main/v1.3.82/PCGuy-setup-1.3.82.exe",
-            "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/pcguy-releases/repo?Revision=master&FilePath=v1.3.82/PCGuy-setup-1.3.82.exe"
-          }
-        }
-      },
-      "note": "私有仓走 wei 打包；面板集成代码见 samai_pack/pcguy_panel/"
-    },
-    {
-      "id": "samoffice",
-      "name": "SamOffice",
-      "desc": "跨平台办公套件（Go + Web，Wails + HTTP 双模式）",
-      "repo": "samaidev/samoffice",
-      "visibility": "public",
-      "build": "github-actions",
-      "platforms": [
-        "win"
-      ],
-      "latest": "0.7.21",
-      "files": {
-        "win": {
-          "name": "SamOffice-setup-0.7.19.exe",
-          "kind": "installer",
-          "sha256": "8c4e97f4444b88df46a92e2996bffd7e26ad3d4c6a268df17b9238f6fc4fbbb6",
-          "size": 20140875,
-          "url": {
-            "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.19/SamOffice-setup-0.7.19.exe",
-            "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.19/SamOffice-setup-0.7.19.exe",
-            "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=master&FilePath=v0.7.19/SamOffice-setup-0.7.19.exe"
-          },
-          "extras": [
-            {
-              "name": "SamOffice-desktop-windows-x64-0.7.19.zip",
-              "kind": "portable",
-              "sha256": "3dd818faff9d32d2df968205b09f1e18be36051159a2575add564904c71af8d8",
-              "size": 24412436,
-              "url": {
-                "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.19/SamOffice-desktop-windows-x64-0.7.19.zip",
-                "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.19/SamOffice-desktop-windows-x64-0.7.19.zip",
-                "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=master&FilePath=v0.7.19/SamOffice-desktop-windows-x64-0.7.19.zip"
-              }
-            },
-            {
-              "name": "SamOffice-desktop-windows-x64-0.7.21.zip",
-              "kind": "portable",
-              "sha256": "4d582219325d728dbca739e4b91b006ed77a591e06a74f7023c93496ba063d06",
-              "size": 24414226,
-              "url": {
-                "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.21/SamOffice-desktop-windows-x64-0.7.21.zip",
-                "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.21/SamOffice-desktop-windows-x64-0.7.21.zip",
-                "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.21&FilePath=v0.7.21/SamOffice-desktop-windows-x64-0.7.21.zip"
-              }
-            },
-            {
-              "name": "SamOffice-setup-0.7.21.exe",
-              "kind": "portable",
-              "sha256": "8119433f6ea929db8eaa218dedee6d123e04cc8d885b926343e19588f51c3043",
-              "size": 20141935,
-              "url": {
-                "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.21/SamOffice-setup-0.7.21.exe",
-                "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.21/SamOffice-setup-0.7.21.exe",
-                "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.21&FilePath=v0.7.21/SamOffice-setup-0.7.21.exe"
-              }
-            }
-          ]
-        }
-      },
-      "note": "M1 试点：第一个跑通公开仓三渠道全链路的产品"
-    },
-    {
-      "id": "openbox",
-      "name": "OpenBox",
-      "desc": "开源跨平台压缩/解压工具（Go+Fyne，中英双语）。v0.4.6 新增：解压完成弹窗提示 + 一键打开文件夹",
-      "repo": "samaidev/openbox",
-      "visibility": "public",
-      "build": "github-actions",
-      "platforms": [
-        "win",
-        "mac",
-        "linux"
-      ],
-      "latest": "0.4.6",
-      "released_at": "2026-11-18",
-      "files": {
-        "win": {
-          "name": "OpenBox-0.4.6-windows-amd64-setup.exe",
-          "kind": "installer",
-          "sha256": "835491d118f0edaa866cb559508756252fc574388233a8a3fe247c9775c9d741",
-          "size": 16114002,
-          "url": {
-            "github": "https://github.com/samaidev/openbox/releases/download/v0.4.6/OpenBox-0.4.6-windows-amd64-setup.exe",
-            "hf": "https://huggingface.co/datasets/mojoz/openbox-releases/resolve/main/v0.4.6/OpenBox-0.4.6-windows-amd64-setup.exe",
-            "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/openbox-releases/repo?Revision=master&FilePath=v0.4.6/OpenBox-0.4.6-windows-amd64-setup.exe"
-          },
-          "extras": [
-            {
-              "name": "openbox-windows-amd64.zip",
-              "kind": "portable",
-              "sha256": "79c6fd0c1b5483fb75073b5aaef83945833e469f521968f6d6256523e7dd2973",
-              "size": 18491200,
-              "url": {
-                "github": "https://github.com/samaidev/openbox/releases/download/v0.4.6/openbox-windows-amd64.zip",
-                "hf": "https://huggingface.co/datasets/mojoz/openbox-releases/resolve/main/v0.4.6/openbox-windows-amd64.zip",
-                "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/openbox-releases/repo?Revision=master&FilePath=v0.4.6/openbox-windows-amd64.zip"
-              }
-            }
-          ]
-        },
-        "mac": {
-          "name": "OpenBox-0.4.6-macos.pkg",
-          "kind": "installer",
-          "sha256": "53b7901811008a8a9174c904b7eae2880f945d1aa092a827981664cc1f87c20f",
-          "size": 19076942,
-          "url": {
-            "github": "https://github.com/samaidev/openbox/releases/download/v0.4.6/OpenBox-0.4.6-macos.pkg",
-            "hf": "https://huggingface.co/datasets/mojoz/openbox-releases/resolve/main/v0.4.6/OpenBox-0.4.6-macos.pkg",
-            "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/openbox-releases/repo?Revision=master&FilePath=v0.4.6/OpenBox-0.4.6-macos.pkg"
-          },
-          "extras": [
-            {
-              "name": "openbox-macos-arm64.tar.gz",
-              "kind": "portable",
-              "sha256": "ee80ee9334d1edcb2bb0749efecb7d7b5ccd2252b3d41b497c9848b6eb541cb2",
-              "size": 18880759,
-              "url": {
-                "github": "https://github.com/samaidev/openbox/releases/download/v0.4.6/openbox-macos-arm64.tar.gz",
-                "hf": "https://huggingface.co/datasets/mojoz/openbox-releases/resolve/main/v0.4.6/openbox-macos-arm64.tar.gz",
-                "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/openbox-releases/repo?Revision=master&FilePath=v0.4.6/openbox-macos-arm64.tar.gz"
-              }
-            },
-            {
-              "name": "openbox-macos-amd64.tar.gz",
-              "kind": "portable",
-              "sha256": "5a128151ce0a913533fc0edb8a869ca5ffc435386487c6811191c8966821562d",
-              "size": 19847624,
-              "url": {
-                "github": "https://github.com/samaidev/openbox/releases/download/v0.4.6/openbox-macos-amd64.tar.gz",
-                "hf": "https://huggingface.co/datasets/mojoz/openbox-releases/resolve/main/v0.4.6/openbox-macos-amd64.tar.gz",
-                "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/openbox-releases/repo?Revision=master&FilePath=v0.4.6/openbox-macos-amd64.tar.gz"
-              }
-            }
-          ]
-        },
-        "linux": {
-          "name": "openbox-linux-amd64.tar.gz",
-          "kind": "portable",
-          "sha256": "c0f19a1888030c6c5c6a9b30fcb9c74699992b9b53ad969ecb4b5712bb4a196a",
-          "size": 18592180,
-          "url": {
-            "github": "https://github.com/samaidev/openbox/releases/download/v0.4.6/openbox-linux-amd64.tar.gz",
-            "hf": "https://huggingface.co/datasets/mojoz/openbox-releases/resolve/main/v0.4.6/openbox-linux-amd64.tar.gz",
-            "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/openbox-releases/repo?Revision=master&FilePath=v0.4.6/openbox-linux-amd64.tar.gz"
-          }
-        }
-      }
-    },
-    {
-      "id": "samime",
-      "name": "SamIME",
-      "desc": "GoIME 跨平台中文输入法（Go，私有仓）",
-      "repo": "samaidev/samime",
-      "visibility": "private",
-      "build": "wei-runner",
-      "platforms": [
-        "win"
-      ],
-      "latest": "3.4.19",
-      "files": {
-        "win": {
-          "name": "SamIME-windows-x64-setup.exe",
-          "kind": "installer",
-          "sha256": "655e8e7f86ba42b467f5da1527406ab2880707226d569ba30ef3e9955ad7d8aa",
-          "size": 61073874,
-          "url": {
-            "github": "https://github.com/samaidev/samime_r/releases/download/v3.4.19/SamIME-windows-x64-setup.exe",
-            "hf": "https://huggingface.co/datasets/mojoz/samime-releases/resolve/main/v3.4.19/SamIME-windows-x64-setup.exe",
-            "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/samime-releases/repo?Revision=master&FilePath=v3.4.19/SamIME-windows-x64-setup.exe"
-          }
-        }
-      }
-    },
-    {
-      "id": "samcdp",
-      "name": "SamCDP",
-      "desc": "数据平台产品（Java，公开仓）",
-      "repo": "samaidev/samcdp",
-      "visibility": "public",
-      "build": "github-actions",
-      "platforms": [
-        "win",
-        "mac",
-        "linux",
-        "android"
-      ],
-      "latest": "1.4.11",
-      "files": {
-        "android": {
-          "name": "samcdp-android.apk",
-          "kind": "portable",
-          "sha256": "ffb4bcd4aa8d39252b31c41827b4fb6a334c556294545490e7d881dd9694ba2a",
-          "size": 10602903,
-          "url": {
-            "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-android.apk",
-            "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-android.apk",
-            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=master&FilePath=v1.4.11/samcdp-android.apk"
-          }
-        },
-        "mac": {
-          "name": "samcdp-darwin-amd64",
-          "kind": "portable",
-          "sha256": "1084a6f9239f55f9019430bb9a3930877ab29ceccce949c3ff63f113b7319370",
-          "size": 17222816,
-          "url": {
-            "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-darwin-amd64",
-            "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-darwin-amd64",
-            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=master&FilePath=v1.4.11/samcdp-darwin-amd64"
-          },
-          "extras": [
-            {
-              "name": "samcdp-darwin-arm64",
-              "kind": "portable",
-              "sha256": "73b7d12a7054b0ab54d783db5e714009239d7f3c2004e1349b5a0836fcd63d94",
-              "size": 16342242,
-              "url": {
-                "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-darwin-arm64",
-                "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-darwin-arm64",
-                "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=master&FilePath=v1.4.11/samcdp-darwin-arm64"
-              }
-            }
-          ]
-        },
-        "linux": {
-          "name": "samcdp-linux-amd64",
-          "kind": "portable",
-          "sha256": "d9c7ed2f69387ca4dfaa5f34bd66433c9fbb9a4a56a393c98d8304775f2fb00e",
-          "size": 18792600,
-          "url": {
-            "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-linux-amd64",
-            "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-linux-amd64",
-            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=master&FilePath=v1.4.11/samcdp-linux-amd64"
-          }
-        },
-        "win": {
-          "name": "SamCDP-1.4.11-windows-amd64-setup.exe",
-          "kind": "installer",
-          "sha256": "6b4433243e9608774f6570945e6790309951a1ef344b8ace3fd7de9bb6084098",
-          "size": 10745343,
-          "url": {
-            "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/SamCDP-1.4.11-windows-amd64-setup.exe",
-            "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/SamCDP-1.4.11-windows-amd64-setup.exe",
-            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=master&FilePath=v1.4.11/SamCDP-1.4.11-windows-amd64-setup.exe"
-          },
-          "extras": [
-            {
-              "name": "samcdp-windows-amd64.exe",
-              "kind": "portable",
-              "sha256": "53023636851daeb8807f2ca8883c7106ec47c29fb3b748e79728707296c5dcd0",
-              "size": 23134208,
-              "url": {
-                "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-windows-amd64.exe",
-                "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-windows-amd64.exe",
-                "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=master&FilePath=v1.4.11/samcdp-windows-amd64.exe"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "samvnc",
-      "name": "SamVNC",
-      "desc": "VNC+RDP 远程控制（Go，经 aitun.cc TCP 隧道；公开仓，wei 目录已有存量构建可迁移）",
-      "repo": "samaidev/samvnc",
-      "visibility": "public",
-      "build": "wei-runner",
-      "platforms": [
-        "win",
-        "mac",
-        "linux"
-      ],
-      "latest": "1.7.3",
-      "files": {
-        "win": {
-          "name": "SamVNC-1.7.3-windows-amd64-setup.exe",
-          "kind": "installer",
-          "sha256": "5dd63a457b1d0c80bb4887ca3b2a9913dd59e763afcdddc90a5eeaf0ace23655",
-          "size": 11179741,
-          "url": {
-            "github": "https://github.com/samaidev/samvnc/releases/download/v1.7.3/SamVNC-1.7.3-windows-amd64-setup.exe",
-            "hf": "https://huggingface.co/datasets/mojoz/samvnc-releases/resolve/main/v1.7.3/SamVNC-1.7.3-windows-amd64-setup.exe",
-            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samvnc-releases/repo?Revision=master&FilePath=v1.7.3/SamVNC-1.7.3-windows-amd64-setup.exe"
-          },
-          "extras": [
-            {
-              "name": "samvnc-tray-windows-amd64.exe",
-              "kind": "portable",
-              "sha256": "f9dcd68327d4c4ed0c8d93c5a41161b49aced54a123545c0f370893261410fe4",
-              "size": 24686080,
-              "url": {
-                "github": "https://github.com/samaidev/samvnc/releases/download/v1.7.3/samvnc-tray-windows-amd64.exe",
-                "hf": "https://huggingface.co/datasets/mojoz/samvnc-releases/resolve/main/v1.7.3/samvnc-tray-windows-amd64.exe",
-                "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samvnc-releases/repo?Revision=master&FilePath=v1.7.3/samvnc-tray-windows-amd64.exe"
-              }
-            }
-          ]
-        },
-        "mac": {
-          "name": "samvnc-tray-darwin-amd64",
-          "kind": "portable",
-          "sha256": "f6bf127c8d4709b2b961768f0ef41efbaf0fb2925c3622abf145e021a6d785b2",
-          "size": 18712704,
-          "url": {
-            "github": "https://github.com/samaidev/samvnc/releases/download/v1.7.3/samvnc-tray-darwin-amd64"
-          },
-          "extras": [
-            {
-              "name": "samvnc-tray-darwin-arm64",
-              "kind": "portable",
-              "sha256": "e53f63899485b7a7c2ca0072b766413c040f1edea0a65abaa525ba006c04aa5b",
-              "size": 17616290,
-              "url": {
-                "github": "https://github.com/samaidev/samvnc/releases/download/v1.7.3/samvnc-tray-darwin-arm64"
-              }
-            }
-          ]
-        },
-        "linux": {
-          "name": "samvnc-tray-linux-amd64",
-          "kind": "portable",
-          "sha256": "32c816f7bbfc44f9f931483163dbe2d19fc5540e9553374d3b9c7c6eedc0cb8e",
-          "size": 21102776,
-          "url": {
-            "github": "https://github.com/samaidev/samvnc/releases/download/v1.7.3/samvnc-tray-linux-amd64"
-          },
-          "extras": [
-            {
-              "name": "samvnc-tray-linux-arm64",
-              "kind": "portable",
-              "sha256": "8886fa2e20b00ef6b5ee1cf9f8db97a20bb69d7c58ab020f6412eb5ab7df2ef5",
-              "size": 19726520,
-              "url": {
-                "github": "https://github.com/samaidev/samvnc/releases/download/v1.7.3/samvnc-tray-linux-arm64"
-              }
-            }
-          ]
-        }
-      },
-      "note": "M2 试点：wei 自托管 runner 跑私密链路；存量构建在 D:\\samai_ci\\samvnc"
-    },
-    {
-      "id": "teambot",
-      "name": "TeamBot",
-      "desc": "团队协作 Bot（Python，PyPI 发布 teambot-ai，Cython 编译保护，私有仓）",
-      "repo": "samaidev/teambot",
-      "visibility": "private",
-      "build": "wei-runner",
-      "platforms": [
-        "win",
-        "linux"
-      ],
-      "latest": "1.56.175",
-      "files": {
-        "win": {
-          "name": "TeamBot-1.56.175-windows-amd64-setup.exe",
-          "kind": "installer",
-          "sha256": "ab5c89c11f79b682759f435c92c6b8b244e1e90fdbf328c39c0b5e80722994f3",
-          "size": 125574852,
-          "url": {
-            "github": "https://github.com/samaidev/samai-releases/releases/download/v1.56.175/TeamBot-1.56.175-windows-amd64-setup.exe",
-            "hf": "https://huggingface.co/datasets/mojoz/teambot-releases/resolve/main/v1.56.175/TeamBot-1.56.175-windows-amd64-setup.exe",
-            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/teambot-releases/repo?Revision=master&FilePath=v1.56.175/TeamBot-1.56.175-windows-amd64-setup.exe"
-          }
-        },
-        "linux": {
-          "name": "teambot",
-          "kind": "portable",
-          "sha256": "48591ed7fc8898bd7c5513ab14cb9cf82806fc3fbe6f49dcac27ff6dad590ecd",
-          "size": 0,
-          "url": {
-            "site": "https://teambot.samai.cc/downloads/teambot"
-          }
-        }
-      }
-    },
-    {
-      "id": "oneapi",
-      "name": "OneAPI",
-      "desc": "聚合 LLM API 网关（Go，私有仓，Render 部署 oneapi-gateway）",
-      "repo": "samaidev/oneapi",
-      "visibility": "private",
-      "build": "wei-runner",
-      "platforms": [
-        "win"
-      ],
-      "latest": "2.0.4",
-      "files": {
-        "win": {
-          "name": "OneAPI-2.0.4-windows-amd64-setup.exe",
-          "kind": "installer",
-          "sha256": "7a14219f2c52e8cf84c49670a22656951da1239425829f06715631d226d8b14b",
-          "size": 7532411,
-          "url": {
-            "github": "https://github.com/samaidev/oneapi_r/releases/download/v2.0.4/OneAPI-2.0.4-windows-amd64-setup.exe",
-            "hf": "https://huggingface.co/datasets/mojoz/oneapi-releases/resolve/main/v2.0.4/OneAPI-2.0.4-windows-amd64-setup.exe",
-            "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/oneapi-releases/repo?Revision=master&FilePath=v2.0.4/OneAPI-2.0.4-windows-amd64-setup.exe"
-          }
-        }
-      }
-    },
-    {
-      "id": "zagent",
-      "name": "ZAgent",
-      "desc": "多平台 Agent（Go，多平台编译 + APK，产物公开在 samaidev/zagent_r，私有源码）",
-      "repo": "samaidev/zagent",
-      "visibility": "private",
-      "build": "wei-runner",
-      "platforms": [
-        "win",
-        "mac",
-        "linux",
-        "android"
-      ],
-      "latest": "0.32.133",
-      "files": {
-        "win": {
-          "name": "ZAgent-0.32.133-windows-amd64-setup.exe",
-          "kind": "installer",
-          "sha256": "36cdb35cab61e4a11179c345a9e6d88883f2fc9327c18b46eb3ac33127ebca19",
-          "size": 19814120,
-          "url": {
-            "github": "https://github.com/samaidev/zagent_r/releases/download/v0.32.133/ZAgent-0.32.133-windows-amd64-setup.exe",
-            "hf": "https://huggingface.co/datasets/gasschina/zagent-releases/resolve/main/v0.32.133/ZAgent-0.32.133-windows-amd64-setup.exe",
-            "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/zagent-releases/repo?Revision=master&FilePath=v0.32.133/ZAgent-0.32.133-windows-amd64-setup.exe"
-          },
-          "extras": [
-            {
-              "name": "zagent-windows-amd64.zip",
-              "kind": "portable",
-              "sha256": "a051a8d7d8613d8ed6f282d557b0786a95b7118cdf4e77cb82fb3967cf2288d2",
-              "size": 0,
-              "url": {
-                "site": "https://zagent.samai.cc/downloads/zagent-windows-amd64.zip"
-              }
-            }
-          ]
-        },
-        "mac": {
-          "name": "zagent-darwin-amd64.tar.gz",
-          "kind": "portable",
-          "sha256": "bb0d74f4c81c34c17002ab839c99cb649dc30a861e4f87f1788a57f53fb3a7f4",
-          "size": 0,
-          "url": {
-            "site": "https://zagent.samai.cc/downloads/zagent-darwin-amd64.tar.gz"
-          },
-          "extras": [
-            {
-              "name": "zagent-darwin-arm64.tar.gz",
-              "kind": "portable",
-              "sha256": "fcd84dedd352c02286413859529735d03665a3ecefd9029927eafe6299688f70",
-              "size": 0,
-              "url": {
-                "site": "https://zagent.samai.cc/downloads/zagent-darwin-arm64.tar.gz"
-              }
-            }
-          ]
-        },
-        "linux": {
-          "name": "zagent-linux-amd64.tar.gz",
-          "kind": "portable",
-          "sha256": "584cea5ea007eee8a5d438c9308f23938ff9720dbd7e575d54cfb9a462ff4736",
-          "size": 0,
-          "url": {
-            "site": "https://zagent.samai.cc/downloads/zagent-linux-amd64.tar.gz"
-          },
-          "extras": [
-            {
-              "name": "zagent-linux-arm64.tar.gz",
-              "kind": "portable",
-              "sha256": "72be4b899eefb76eff7a76e626f7fcd78e37ad5472c01b530c6c55e472c600c3",
-              "size": 0,
-              "url": {
-                "site": "https://zagent.samai.cc/downloads/zagent-linux-arm64.tar.gz"
-              }
-            }
-          ]
-        },
-        "android": {
-          "name": "zagent-android-arm64-0.32.134.apk",
-          "kind": "portable",
-          "sha256": "07cc605c78361e38e1b4419152cf9ecfbcaef53e6d044de4912e29373d94e08f",
-          "size": 287670608,
-          "url": {
-            "github": "https://github.com/samaidev/zagent_r/releases/download/v0.32.134/zagent-android-arm64-0.32.134.apk"
-          }
-        }
-      },
-      "note": "延续 zagent_r 模式：私密源码 → wei 编译 → 公开仓存产物"
-    },
-    {
-      "id": "samcommand",
-      "name": "SamCommand",
-      "desc": "远程可控命令执行代理（跨平台单文件，samai.cc 镜像分发）",
-      "repo": "samaidev/samcommand",
-      "visibility": "private",
-      "build": "wei-runner",
-      "platforms": [
-        "win",
-        "mac",
-        "linux"
-      ],
-      "latest": "1.9.6",
-      "files": {
-        "win": {
-          "name": "samcommand-windows-amd64.exe",
-          "kind": "portable",
-          "sha256": "82aa82b06f8fa876328157f8db5eb84f5cc4cd5dadd1423821e72149a661991d",
-          "size": 0,
-          "url": {
-            "site": "https://samai.cc/samcommand/downloads/samcommand-windows-amd64.exe"
-          }
-        },
-        "mac": {
-          "name": "samcommand-darwin-amd64",
-          "kind": "portable",
-          "sha256": "14f3fbc46b60db5aa8eff70c542fccbc2923a8d1fd0452544a845907c9d58951",
-          "size": 0,
-          "url": {
-            "site": "https://samai.cc/samcommand/downloads/samcommand-darwin-amd64"
-          },
-          "extras": [
-            {
-              "name": "samcommand-darwin-arm64",
-              "kind": "portable",
-              "sha256": "2faeed3946dd0f1823f88728faab6975e08f6dd4ae671698add66f55ceb89d13",
-              "size": 0,
-              "url": {
-                "site": "https://samai.cc/samcommand/downloads/samcommand-darwin-arm64"
-              }
-            }
-          ]
-        },
-        "linux": {
-          "name": "samcommand-linux-amd64",
-          "kind": "portable",
-          "sha256": "980855caa5ca2679baed10669c6ed4eb1e2c519f9a60f7433e4ace53d75f217b",
-          "size": 0,
-          "url": {
-            "site": "https://samai.cc/samcommand/downloads/samcommand-linux-amd64"
-          },
-          "extras": [
-            {
-              "name": "samcommand-linux-arm64",
-              "kind": "portable",
-              "sha256": "b1618a80600300170dafbb8d82729a3472f9999e4d58df5de0556c99e7d7f97f",
-              "size": 0,
-              "url": {
-                "site": "https://samai.cc/samcommand/downloads/samcommand-linux-arm64"
-              }
-            },
-            {
-              "name": "samcommand-linux-arm",
-              "kind": "portable",
-              "sha256": "864d24f6d01437f2a647649366648db5bedfac774558f1ac102d50968dda5024",
-              "size": 0,
-              "url": {
-                "site": "https://samai.cc/samcommand/downloads/samcommand-linux-arm"
-              }
-            }
-          ]
-        }
-      },
-      "note": "发布镜像由 samai_ci wf3 同步至 samai.cc/samcommand/downloads（仓库私有，GH 资产匿名不可达）"
-    },
-    {
-      "id": "samdocker",
-      "name": "SamDocker",
-      "desc": "将旧安卓手机变成可公开访问的 Linux 服务器（APK）",
-      "repo": "samaidev/samdocker",
-      "visibility": "private",
-      "build": "wei-runner",
-      "platforms": [
-        "android"
-      ],
-      "latest": "2.1.38",
-      "files": {
-        "android": {
-          "name": "SamDocker-2.1.38.apk",
-          "kind": "portable",
-          "sha256": "d414b6203d31dd7a91d48deedae12de6f349942e0eb535ad964622cab321b1ed",
-          "size": 138885807,
-          "url": {
-            "github": "https://github.com/samaidev/samdocker_r/releases/download/v2.1.38/SamDocker-2.1.38.apk"
-          }
-        }
-      },
-      "note": "APK 发布于 samdocker_r；site 渠道为 samai.cc 镜像"
-    },
-    {
-      "id": "samvideo",
-      "name": "SamVideo",
-      "desc": "AI 短视频生成器（Go 开源，源码分发）——输入主题自动产出含旁白、字幕、背景音乐与 AI 画面的完整 MP4；预编译产物筹备中",
-      "repo": "samaidev/samvideo",
-      "visibility": "public",
-      "build": "github-actions",
-      "platforms": [
-        "win",
-        "mac",
-        "linux"
-      ],
-      "latest": null,
-      "files": {}
+  "hf": {
+   "endpoint": "https://huggingface.co",
+   "mirror": "https://hf-mirror.com",
+   "accounts": [
+    "tchbcb",
+    "gasschina",
+    "mojoz"
+   ],
+   "catalog_repo": "tchbcb/samai-releases",
+   "note": "3 个 HF 真实账号（tchbcb/gasschina/mojoz；资产库中 tchbcn 标签实际对应 HF 用户 tchbcb）；产品按 sha256(id)%3 分摊；国内下载自动走 hf-mirror 域名"
+  },
+  "github": {
+   "endpoint": "https://github.com",
+   "org": "samaidev",
+   "catalog_repo": "samaidev/samai-releases",
+   "note": "catalog 单一事实源主仓；私密产品产物延续 *_r 发布仓模式"
+  }
+ },
+ "products": [
+  {
+   "id": "pcguy",
+   "name": "PCGuy",
+   "desc": "Windows 系统管家（Go+Wails）：清理/进程/内存/启动项，内嵌集团产品面板（saminstaller 一键安装）",
+   "repo": "samaidev/pcguy",
+   "visibility": "private",
+   "build": "wei-runner",
+   "platforms": [
+    "win"
+   ],
+   "latest": "1.3.82",
+   "files": {
+    "win": {
+     "name": "PCGuy-setup-1.3.82.exe",
+     "kind": "installer",
+     "sha256": "d1223a7134dc9577d5710aba91c4778a5cf6be62f5380b40f8c4f85734a1becf",
+     "size": 21622550,
+     "url": {
+      "github": "https://github.com/samaidev/pcguy_r/releases/download/v1.3.82/PCGuy-setup-1.3.82.exe",
+      "hf": "https://huggingface.co/datasets/tchbcb/pcguy-releases/resolve/main/v1.3.82/PCGuy-setup-1.3.82.exe",
+      "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/pcguy-releases/repo?Revision=master&FilePath=v1.3.82/PCGuy-setup-1.3.82.exe"
+     }
     }
-  ],
-  "note_ms_revision": "MS 直链统一使用 Revision=master（latest-only；catalog 每次发版重写，无需 tag 锁定）",
-  "note_catalog_v2": "v2: 补录 samvnc/teambot/zagent mac/linux 条目与 samcommand 产品；site 渠道 = samai.cc 站点镜像（wf 同步 latest-only）；ms 直链统一 Revision=master"
+   },
+   "note": "私有仓走 wei 打包；面板集成代码见 samai_pack/pcguy_panel/"
+  },
+  {
+   "id": "samoffice",
+   "name": "SamOffice",
+   "desc": "跨平台办公套件（Go + Web，Wails + HTTP 双模式）",
+   "repo": "samaidev/samoffice",
+   "visibility": "public",
+   "build": "github-actions",
+   "platforms": [
+    "win"
+   ],
+   "latest": "0.7.19",
+   "files": {
+    "win": {
+     "name": "SamOffice-setup-0.7.19.exe",
+     "kind": "installer",
+     "sha256": "8c4e97f4444b88df46a92e2996bffd7e26ad3d4c6a268df17b9238f6fc4fbbb6",
+     "size": 20140875,
+     "url": {
+      "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.19/SamOffice-setup-0.7.19.exe",
+      "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.19/SamOffice-setup-0.7.19.exe",
+      "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=master&FilePath=v0.7.19/SamOffice-setup-0.7.19.exe"
+     },
+     "extras": [
+      {
+       "name": "SamOffice-desktop-windows-x64-0.7.19.zip",
+       "kind": "portable",
+       "sha256": "3dd818faff9d32d2df968205b09f1e18be36051159a2575add564904c71af8d8",
+       "size": 24412436,
+       "url": {
+        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.19/SamOffice-desktop-windows-x64-0.7.19.zip",
+        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.19/SamOffice-desktop-windows-x64-0.7.19.zip",
+        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=master&FilePath=v0.7.19/SamOffice-desktop-windows-x64-0.7.19.zip"
+       }
+      }
+     ]
+    }
+   },
+   "note": "M1 试点：第一个跑通公开仓三渠道全链路的产品"
+  },
+  {
+   "id": "openbox",
+   "name": "OpenBox",
+   "desc": "开源跨平台压缩/解压工具（Go+Fyne，中英双语）。v0.4.6 新增：解压完成弹窗提示 + 一键打开文件夹",
+   "repo": "samaidev/openbox",
+   "visibility": "public",
+   "build": "github-actions",
+   "platforms": [
+    "win",
+    "mac",
+    "linux"
+   ],
+   "latest": "0.4.6",
+   "released_at": "2026-11-18",
+   "files": {
+    "win": {
+     "name": "OpenBox-0.4.6-windows-amd64-setup.exe",
+     "kind": "installer",
+     "sha256": "835491d118f0edaa866cb559508756252fc574388233a8a3fe247c9775c9d741",
+     "size": 16114002,
+     "url": {
+      "github": "https://github.com/samaidev/openbox/releases/download/v0.4.6/OpenBox-0.4.6-windows-amd64-setup.exe",
+      "hf": "https://huggingface.co/datasets/mojoz/openbox-releases/resolve/main/v0.4.6/OpenBox-0.4.6-windows-amd64-setup.exe",
+      "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/openbox-releases/repo?Revision=master&FilePath=v0.4.6/OpenBox-0.4.6-windows-amd64-setup.exe"
+     },
+     "extras": [
+      {
+       "name": "openbox-windows-amd64.zip",
+       "kind": "portable",
+       "sha256": "79c6fd0c1b5483fb75073b5aaef83945833e469f521968f6d6256523e7dd2973",
+       "size": 18491200,
+       "url": {
+        "github": "https://github.com/samaidev/openbox/releases/download/v0.4.6/openbox-windows-amd64.zip",
+        "hf": "https://huggingface.co/datasets/mojoz/openbox-releases/resolve/main/v0.4.6/openbox-windows-amd64.zip",
+        "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/openbox-releases/repo?Revision=master&FilePath=v0.4.6/openbox-windows-amd64.zip"
+       }
+      }
+     ]
+    },
+    "mac": {
+     "name": "OpenBox-0.4.6-macos.pkg",
+     "kind": "installer",
+     "sha256": "53b7901811008a8a9174c904b7eae2880f945d1aa092a827981664cc1f87c20f",
+     "size": 19076942,
+     "url": {
+      "github": "https://github.com/samaidev/openbox/releases/download/v0.4.6/OpenBox-0.4.6-macos.pkg",
+      "hf": "https://huggingface.co/datasets/mojoz/openbox-releases/resolve/main/v0.4.6/OpenBox-0.4.6-macos.pkg",
+      "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/openbox-releases/repo?Revision=master&FilePath=v0.4.6/OpenBox-0.4.6-macos.pkg"
+     },
+     "extras": [
+      {
+       "name": "openbox-macos-arm64.tar.gz",
+       "kind": "portable",
+       "sha256": "ee80ee9334d1edcb2bb0749efecb7d7b5ccd2252b3d41b497c9848b6eb541cb2",
+       "size": 18880759,
+       "url": {
+        "github": "https://github.com/samaidev/openbox/releases/download/v0.4.6/openbox-macos-arm64.tar.gz",
+        "hf": "https://huggingface.co/datasets/mojoz/openbox-releases/resolve/main/v0.4.6/openbox-macos-arm64.tar.gz",
+        "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/openbox-releases/repo?Revision=master&FilePath=v0.4.6/openbox-macos-arm64.tar.gz"
+       }
+      },
+      {
+       "name": "openbox-macos-amd64.tar.gz",
+       "kind": "portable",
+       "sha256": "5a128151ce0a913533fc0edb8a869ca5ffc435386487c6811191c8966821562d",
+       "size": 19847624,
+       "url": {
+        "github": "https://github.com/samaidev/openbox/releases/download/v0.4.6/openbox-macos-amd64.tar.gz",
+        "hf": "https://huggingface.co/datasets/mojoz/openbox-releases/resolve/main/v0.4.6/openbox-macos-amd64.tar.gz",
+        "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/openbox-releases/repo?Revision=master&FilePath=v0.4.6/openbox-macos-amd64.tar.gz"
+       }
+      }
+     ]
+    },
+    "linux": {
+     "name": "openbox-linux-amd64.tar.gz",
+     "kind": "portable",
+     "sha256": "c0f19a1888030c6c5c6a9b30fcb9c74699992b9b53ad969ecb4b5712bb4a196a",
+     "size": 18592180,
+     "url": {
+      "github": "https://github.com/samaidev/openbox/releases/download/v0.4.6/openbox-linux-amd64.tar.gz",
+      "hf": "https://huggingface.co/datasets/mojoz/openbox-releases/resolve/main/v0.4.6/openbox-linux-amd64.tar.gz",
+      "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/openbox-releases/repo?Revision=master&FilePath=v0.4.6/openbox-linux-amd64.tar.gz"
+     }
+    }
+   }
+  },
+  {
+   "id": "samime",
+   "name": "SamIME",
+   "desc": "GoIME 跨平台中文输入法（Go，私有仓）",
+   "repo": "samaidev/samime",
+   "visibility": "private",
+   "build": "wei-runner",
+   "platforms": [
+    "win"
+   ],
+   "latest": "3.4.19",
+   "files": {
+    "win": {
+     "name": "SamIME-windows-x64-setup.exe",
+     "kind": "installer",
+     "sha256": "655e8e7f86ba42b467f5da1527406ab2880707226d569ba30ef3e9955ad7d8aa",
+     "size": 61073874,
+     "url": {
+      "github": "https://github.com/samaidev/samime_r/releases/download/v3.4.19/SamIME-windows-x64-setup.exe",
+      "hf": "https://huggingface.co/datasets/mojoz/samime-releases/resolve/main/v3.4.19/SamIME-windows-x64-setup.exe",
+      "ms": "https://modelscope.cn/api/v1/models/zhubaohua168/samime-releases/repo?Revision=master&FilePath=v3.4.19/SamIME-windows-x64-setup.exe"
+     }
+    }
+   }
+  },
+  {
+   "id": "samcdp",
+   "name": "SamCDP",
+   "desc": "数据平台产品（Java，公开仓）",
+   "repo": "samaidev/samcdp",
+   "visibility": "public",
+   "build": "github-actions",
+   "platforms": [
+    "win",
+    "mac",
+    "linux",
+    "android"
+   ],
+   "latest": "1.4.11",
+   "files": {
+    "android": {
+     "name": "samcdp-android.apk",
+     "kind": "portable",
+     "sha256": "ffb4bcd4aa8d39252b31c41827b4fb6a334c556294545490e7d881dd9694ba2a",
+     "size": 10602903,
+     "url": {
+      "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-android.apk",
+      "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-android.apk",
+      "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=master&FilePath=v1.4.11/samcdp-android.apk"
+     }
+    },
+    "mac": {
+     "name": "samcdp-darwin-amd64",
+     "kind": "portable",
+     "sha256": "1084a6f9239f55f9019430bb9a3930877ab29ceccce949c3ff63f113b7319370",
+     "size": 17222816,
+     "url": {
+      "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-darwin-amd64",
+      "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-darwin-amd64",
+      "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=master&FilePath=v1.4.11/samcdp-darwin-amd64"
+     },
+     "extras": [
+      {
+       "name": "samcdp-darwin-arm64",
+       "kind": "portable",
+       "sha256": "73b7d12a7054b0ab54d783db5e714009239d7f3c2004e1349b5a0836fcd63d94",
+       "size": 16342242,
+       "url": {
+        "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-darwin-arm64",
+        "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-darwin-arm64",
+        "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=master&FilePath=v1.4.11/samcdp-darwin-arm64"
+       }
+      }
+     ]
+    },
+    "linux": {
+     "name": "samcdp-linux-amd64",
+     "kind": "portable",
+     "sha256": "d9c7ed2f69387ca4dfaa5f34bd66433c9fbb9a4a56a393c98d8304775f2fb00e",
+     "size": 18792600,
+     "url": {
+      "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-linux-amd64",
+      "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-linux-amd64",
+      "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=master&FilePath=v1.4.11/samcdp-linux-amd64"
+     }
+    },
+    "win": {
+     "name": "SamCDP-1.4.11-windows-amd64-setup.exe",
+     "kind": "installer",
+     "sha256": "6b4433243e9608774f6570945e6790309951a1ef344b8ace3fd7de9bb6084098",
+     "size": 10745343,
+     "url": {
+      "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/SamCDP-1.4.11-windows-amd64-setup.exe",
+      "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/SamCDP-1.4.11-windows-amd64-setup.exe",
+      "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=master&FilePath=v1.4.11/SamCDP-1.4.11-windows-amd64-setup.exe"
+     },
+     "extras": [
+      {
+       "name": "samcdp-windows-amd64.exe",
+       "kind": "portable",
+       "sha256": "53023636851daeb8807f2ca8883c7106ec47c29fb3b748e79728707296c5dcd0",
+       "size": 23134208,
+       "url": {
+        "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.11/samcdp-windows-amd64.exe",
+        "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.11/samcdp-windows-amd64.exe",
+        "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=master&FilePath=v1.4.11/samcdp-windows-amd64.exe"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "samvnc",
+   "name": "SamVNC",
+   "desc": "VNC+RDP 远程控制（Go，经 aitun.cc TCP 隧道；公开仓，wei 目录已有存量构建可迁移）",
+   "repo": "samaidev/samvnc",
+   "visibility": "public",
+   "build": "wei-runner",
+   "platforms": [
+    "win",
+    "mac",
+    "linux"
+   ],
+   "latest": "1.7.3",
+   "files": {
+    "win": {
+     "name": "SamVNC-1.7.3-windows-amd64-setup.exe",
+     "kind": "installer",
+     "sha256": "5dd63a457b1d0c80bb4887ca3b2a9913dd59e763afcdddc90a5eeaf0ace23655",
+     "size": 11179741,
+     "url": {
+      "github": "https://github.com/samaidev/samvnc/releases/download/v1.7.3/SamVNC-1.7.3-windows-amd64-setup.exe",
+      "hf": "https://huggingface.co/datasets/mojoz/samvnc-releases/resolve/main/v1.7.3/SamVNC-1.7.3-windows-amd64-setup.exe",
+      "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samvnc-releases/repo?Revision=master&FilePath=v1.7.3/SamVNC-1.7.3-windows-amd64-setup.exe"
+     },
+     "extras": [
+      {
+       "name": "samvnc-tray-windows-amd64.exe",
+       "kind": "portable",
+       "sha256": "f9dcd68327d4c4ed0c8d93c5a41161b49aced54a123545c0f370893261410fe4",
+       "size": 24686080,
+       "url": {
+        "github": "https://github.com/samaidev/samvnc/releases/download/v1.7.3/samvnc-tray-windows-amd64.exe",
+        "hf": "https://huggingface.co/datasets/mojoz/samvnc-releases/resolve/main/v1.7.3/samvnc-tray-windows-amd64.exe",
+        "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samvnc-releases/repo?Revision=master&FilePath=v1.7.3/samvnc-tray-windows-amd64.exe"
+       }
+      }
+     ]
+    },
+    "mac": {
+     "name": "samvnc-tray-darwin-amd64",
+     "kind": "portable",
+     "sha256": "f6bf127c8d4709b2b961768f0ef41efbaf0fb2925c3622abf145e021a6d785b2",
+     "size": 18712704,
+     "url": {
+      "github": "https://github.com/samaidev/samvnc/releases/download/v1.7.3/samvnc-tray-darwin-amd64"
+     },
+     "extras": [
+      {
+       "name": "samvnc-tray-darwin-arm64",
+       "kind": "portable",
+       "sha256": "e53f63899485b7a7c2ca0072b766413c040f1edea0a65abaa525ba006c04aa5b",
+       "size": 17616290,
+       "url": {
+        "github": "https://github.com/samaidev/samvnc/releases/download/v1.7.3/samvnc-tray-darwin-arm64"
+       }
+      }
+     ]
+    },
+    "linux": {
+     "name": "samvnc-tray-linux-amd64",
+     "kind": "portable",
+     "sha256": "32c816f7bbfc44f9f931483163dbe2d19fc5540e9553374d3b9c7c6eedc0cb8e",
+     "size": 21102776,
+     "url": {
+      "github": "https://github.com/samaidev/samvnc/releases/download/v1.7.3/samvnc-tray-linux-amd64"
+     },
+     "extras": [
+      {
+       "name": "samvnc-tray-linux-arm64",
+       "kind": "portable",
+       "sha256": "8886fa2e20b00ef6b5ee1cf9f8db97a20bb69d7c58ab020f6412eb5ab7df2ef5",
+       "size": 19726520,
+       "url": {
+        "github": "https://github.com/samaidev/samvnc/releases/download/v1.7.3/samvnc-tray-linux-arm64"
+       }
+      }
+     ]
+    }
+   },
+   "note": "M2 试点：wei 自托管 runner 跑私密链路；存量构建在 D:\\samai_ci\\samvnc"
+  },
+  {
+   "id": "teambot",
+   "name": "TeamBot",
+   "desc": "团队协作 Bot（Python，PyPI 发布 teambot-ai，Cython 编译保护，私有仓）",
+   "repo": "samaidev/teambot",
+   "visibility": "private",
+   "build": "wei-runner",
+   "platforms": [
+    "win",
+    "linux"
+   ],
+   "latest": "1.56.175",
+   "files": {
+    "win": {
+     "name": "TeamBot-1.56.175-windows-amd64-setup.exe",
+     "kind": "installer",
+     "sha256": "ab5c89c11f79b682759f435c92c6b8b244e1e90fdbf328c39c0b5e80722994f3",
+     "size": 125574852,
+     "url": {
+      "github": "https://github.com/samaidev/samai-releases/releases/download/v1.56.175/TeamBot-1.56.175-windows-amd64-setup.exe",
+      "hf": "https://huggingface.co/datasets/mojoz/teambot-releases/resolve/main/v1.56.175/TeamBot-1.56.175-windows-amd64-setup.exe",
+      "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/teambot-releases/repo?Revision=master&FilePath=v1.56.175/TeamBot-1.56.175-windows-amd64-setup.exe"
+     }
+    },
+    "linux": {
+     "name": "teambot",
+     "kind": "portable",
+     "sha256": "48591ed7fc8898bd7c5513ab14cb9cf82806fc3fbe6f49dcac27ff6dad590ecd",
+     "size": 0,
+     "url": {
+      "site": "https://teambot.samai.cc/downloads/teambot"
+     }
+    }
+   }
+  },
+  {
+   "id": "oneapi",
+   "name": "OneAPI",
+   "desc": "聚合 LLM API 网关（Go，私有仓，Render 部署 oneapi-gateway）",
+   "repo": "samaidev/oneapi",
+   "visibility": "private",
+   "build": "wei-runner",
+   "platforms": [
+    "win"
+   ],
+   "latest": "2.0.4",
+   "files": {
+    "win": {
+     "name": "OneAPI-2.0.4-windows-amd64-setup.exe",
+     "kind": "installer",
+     "sha256": "7a14219f2c52e8cf84c49670a22656951da1239425829f06715631d226d8b14b",
+     "size": 7532411,
+     "url": {
+      "github": "https://github.com/samaidev/oneapi_r/releases/download/v2.0.4/OneAPI-2.0.4-windows-amd64-setup.exe",
+      "hf": "https://huggingface.co/datasets/mojoz/oneapi-releases/resolve/main/v2.0.4/OneAPI-2.0.4-windows-amd64-setup.exe",
+      "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/oneapi-releases/repo?Revision=master&FilePath=v2.0.4/OneAPI-2.0.4-windows-amd64-setup.exe"
+     }
+    }
+   }
+  },
+  {
+   "id": "zagent",
+   "name": "ZAgent",
+   "desc": "多平台 Agent（Go，多平台编译 + APK，产物公开在 samaidev/zagent_r，私有源码）",
+   "repo": "samaidev/zagent",
+   "visibility": "private",
+   "build": "wei-runner",
+   "platforms": [
+    "win",
+    "mac",
+    "linux",
+    "android"
+   ],
+   "latest": "0.32.133",
+   "files": {
+    "win": {
+     "name": "ZAgent-0.32.133-windows-amd64-setup.exe",
+     "kind": "installer",
+     "sha256": "36cdb35cab61e4a11179c345a9e6d88883f2fc9327c18b46eb3ac33127ebca19",
+     "size": 19814120,
+     "url": {
+      "github": "https://github.com/samaidev/zagent_r/releases/download/v0.32.133/ZAgent-0.32.133-windows-amd64-setup.exe",
+      "hf": "https://huggingface.co/datasets/gasschina/zagent-releases/resolve/main/v0.32.133/ZAgent-0.32.133-windows-amd64-setup.exe",
+      "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/zagent-releases/repo?Revision=master&FilePath=v0.32.133/ZAgent-0.32.133-windows-amd64-setup.exe"
+     },
+     "extras": [
+      {
+       "name": "zagent-windows-amd64.zip",
+       "kind": "portable",
+       "sha256": "a051a8d7d8613d8ed6f282d557b0786a95b7118cdf4e77cb82fb3967cf2288d2",
+       "size": 0,
+       "url": {
+        "site": "https://zagent.samai.cc/downloads/zagent-windows-amd64.zip"
+       }
+      }
+     ]
+    },
+    "mac": {
+     "name": "zagent-darwin-amd64.tar.gz",
+     "kind": "portable",
+     "sha256": "bb0d74f4c81c34c17002ab839c99cb649dc30a861e4f87f1788a57f53fb3a7f4",
+     "size": 0,
+     "url": {
+      "site": "https://zagent.samai.cc/downloads/zagent-darwin-amd64.tar.gz"
+     },
+     "extras": [
+      {
+       "name": "zagent-darwin-arm64.tar.gz",
+       "kind": "portable",
+       "sha256": "fcd84dedd352c02286413859529735d03665a3ecefd9029927eafe6299688f70",
+       "size": 0,
+       "url": {
+        "site": "https://zagent.samai.cc/downloads/zagent-darwin-arm64.tar.gz"
+       }
+      }
+     ]
+    },
+    "linux": {
+     "name": "zagent-linux-amd64.tar.gz",
+     "kind": "portable",
+     "sha256": "584cea5ea007eee8a5d438c9308f23938ff9720dbd7e575d54cfb9a462ff4736",
+     "size": 0,
+     "url": {
+      "site": "https://zagent.samai.cc/downloads/zagent-linux-amd64.tar.gz"
+     },
+     "extras": [
+      {
+       "name": "zagent-linux-arm64.tar.gz",
+       "kind": "portable",
+       "sha256": "72be4b899eefb76eff7a76e626f7fcd78e37ad5472c01b530c6c55e472c600c3",
+       "size": 0,
+       "url": {
+        "site": "https://zagent.samai.cc/downloads/zagent-linux-arm64.tar.gz"
+       }
+      }
+     ]
+    },
+    "android": {
+     "name": "zagent-android-arm64-0.32.134.apk",
+     "kind": "portable",
+     "sha256": "07cc605c78361e38e1b4419152cf9ecfbcaef53e6d044de4912e29373d94e08f",
+     "size": 287670608,
+     "url": {
+      "github": "https://github.com/samaidev/zagent_r/releases/download/v0.32.134/zagent-android-arm64-0.32.134.apk"
+     }
+    }
+   },
+   "note": "延续 zagent_r 模式：私密源码 → wei 编译 → 公开仓存产物"
+  },
+  {
+   "id": "samcommand",
+   "name": "SamCommand",
+   "desc": "远程可控命令执行代理（跨平台单文件，samai.cc 镜像分发）",
+   "repo": "samaidev/samcommand",
+   "visibility": "private",
+   "build": "wei-runner",
+   "platforms": [
+    "win",
+    "mac",
+    "linux"
+   ],
+   "latest": "1.9.6",
+   "files": {
+    "win": {
+     "name": "samcommand-windows-amd64.exe",
+     "kind": "portable",
+     "sha256": "82aa82b06f8fa876328157f8db5eb84f5cc4cd5dadd1423821e72149a661991d",
+     "size": 0,
+     "url": {
+      "site": "https://samai.cc/samcommand/downloads/samcommand-windows-amd64.exe"
+     }
+    },
+    "mac": {
+     "name": "samcommand-darwin-amd64",
+     "kind": "portable",
+     "sha256": "14f3fbc46b60db5aa8eff70c542fccbc2923a8d1fd0452544a845907c9d58951",
+     "size": 0,
+     "url": {
+      "site": "https://samai.cc/samcommand/downloads/samcommand-darwin-amd64"
+     },
+     "extras": [
+      {
+       "name": "samcommand-darwin-arm64",
+       "kind": "portable",
+       "sha256": "2faeed3946dd0f1823f88728faab6975e08f6dd4ae671698add66f55ceb89d13",
+       "size": 0,
+       "url": {
+        "site": "https://samai.cc/samcommand/downloads/samcommand-darwin-arm64"
+       }
+      }
+     ]
+    },
+    "linux": {
+     "name": "samcommand-linux-amd64",
+     "kind": "portable",
+     "sha256": "980855caa5ca2679baed10669c6ed4eb1e2c519f9a60f7433e4ace53d75f217b",
+     "size": 0,
+     "url": {
+      "site": "https://samai.cc/samcommand/downloads/samcommand-linux-amd64"
+     },
+     "extras": [
+      {
+       "name": "samcommand-linux-arm64",
+       "kind": "portable",
+       "sha256": "b1618a80600300170dafbb8d82729a3472f9999e4d58df5de0556c99e7d7f97f",
+       "size": 0,
+       "url": {
+        "site": "https://samai.cc/samcommand/downloads/samcommand-linux-arm64"
+       }
+      },
+      {
+       "name": "samcommand-linux-arm",
+       "kind": "portable",
+       "sha256": "864d24f6d01437f2a647649366648db5bedfac774558f1ac102d50968dda5024",
+       "size": 0,
+       "url": {
+        "site": "https://samai.cc/samcommand/downloads/samcommand-linux-arm"
+       }
+      }
+     ]
+    }
+   },
+   "note": "发布镜像由 samai_ci wf3 同步至 samai.cc/samcommand/downloads（仓库私有，GH 资产匿名不可达）"
+  },
+  {
+   "id": "samdocker",
+   "name": "SamDocker",
+   "desc": "将旧安卓手机变成可公开访问的 Linux 服务器（APK）",
+   "repo": "samaidev/samdocker",
+   "visibility": "private",
+   "build": "wei-runner",
+   "platforms": [
+    "android"
+   ],
+   "latest": "2.1.38",
+   "files": {
+    "android": {
+     "name": "SamDocker-2.1.38.apk",
+     "kind": "portable",
+     "sha256": "d414b6203d31dd7a91d48deedae12de6f349942e0eb535ad964622cab321b1ed",
+     "size": 138885807,
+     "url": {
+      "github": "https://github.com/samaidev/samdocker_r/releases/download/v2.1.38/SamDocker-2.1.38.apk"
+     }
+    }
+   },
+   "note": "APK 发布于 samdocker_r；site 渠道为 samai.cc 镜像"
+  },
+  {
+   "id": "samvideo",
+   "name": "SamVideo",
+   "desc": "AI 短视频生成器（Go 开源，预编译 v0.1.0 已发布）——输入主题自动产出含旁白、字幕、背景音乐与 AI 画面的完整 MP4；运行需 FFmpeg + edge-tts + API key，详见包内 DEPLOY.txt",
+   "repo": "samaidev/samvideo",
+   "visibility": "public",
+   "build": "github-actions",
+   "platforms": [
+    "win",
+    "mac",
+    "linux"
+   ],
+   "latest": "0.1.0",
+   "files": {
+    "win": {
+     "name": "samvideo-windows-amd64.zip",
+     "kind": "portable",
+     "sha256": "6b26b5c514ac500a3cf7ebb1b149ba0b41b34e7b46c281671a07f887db9a65b5",
+     "size": 4155597,
+     "url": {
+      "github": "https://github.com/samaidev/samvideo/releases/download/v0.1.0/samvideo-windows-amd64.zip",
+      "hf": "https://huggingface.co/datasets/gasschina/samvideo-releases/resolve/main/v0.1.0/samvideo-windows-amd64.zip",
+      "ms": "https://modelscope.cn/api/v1/models/liuwei168/samvideo-releases/repo?Revision=master&FilePath=v0.1.0/samvideo-windows-amd64.zip"
+     }
+    },
+    "linux": {
+     "name": "samvideo-linux-amd64.tar.gz",
+     "kind": "portable",
+     "sha256": "c7a5cfb60cd7dc43abb958071aa01391829860346d4aa97e704482934b102dd0",
+     "size": 4033941,
+     "url": {
+      "github": "https://github.com/samaidev/samvideo/releases/download/v0.1.0/samvideo-linux-amd64.tar.gz",
+      "hf": "https://huggingface.co/datasets/gasschina/samvideo-releases/resolve/main/v0.1.0/samvideo-linux-amd64.tar.gz",
+      "ms": "https://modelscope.cn/api/v1/models/liuwei168/samvideo-releases/repo?Revision=master&FilePath=v0.1.0/samvideo-linux-amd64.tar.gz"
+     },
+     "extras": [
+      {
+       "name": "samvideo-linux-arm64.tar.gz",
+       "kind": "portable",
+       "sha256": "e69e25960424eb05661e5e338f191dcd33345823600f879cde5ad345e4e09c74",
+       "size": 3649896,
+       "url": {
+        "github": "https://github.com/samaidev/samvideo/releases/download/v0.1.0/samvideo-linux-arm64.tar.gz",
+        "hf": "https://huggingface.co/datasets/gasschina/samvideo-releases/resolve/main/v0.1.0/samvideo-linux-arm64.tar.gz",
+        "ms": "https://modelscope.cn/api/v1/models/liuwei168/samvideo-releases/repo?Revision=master&FilePath=v0.1.0/samvideo-linux-arm64.tar.gz"
+       }
+      }
+     ]
+    },
+    "mac": {
+     "name": "samvideo-darwin-amd64.tar.gz",
+     "kind": "portable",
+     "sha256": "37ad110f5a18d5b0595a2fec4a8393ca2a0192373f9e7f046c979f8139e2ec66",
+     "size": 4092350,
+     "url": {
+      "github": "https://github.com/samaidev/samvideo/releases/download/v0.1.0/samvideo-darwin-amd64.tar.gz",
+      "hf": "https://huggingface.co/datasets/gasschina/samvideo-releases/resolve/main/v0.1.0/samvideo-darwin-amd64.tar.gz",
+      "ms": "https://modelscope.cn/api/v1/models/liuwei168/samvideo-releases/repo?Revision=master&FilePath=v0.1.0/samvideo-darwin-amd64.tar.gz"
+     },
+     "extras": [
+      {
+       "name": "samvideo-darwin-arm64.tar.gz",
+       "kind": "portable",
+       "sha256": "9e0b075834da7d37aae481be665880f2a3569758a3ffca600bbf42346734a091",
+       "size": 3785532,
+       "url": {
+        "github": "https://github.com/samaidev/samvideo/releases/download/v0.1.0/samvideo-darwin-arm64.tar.gz",
+        "hf": "https://huggingface.co/datasets/gasschina/samvideo-releases/resolve/main/v0.1.0/samvideo-darwin-arm64.tar.gz",
+        "ms": "https://modelscope.cn/api/v1/models/liuwei168/samvideo-releases/repo?Revision=master&FilePath=v0.1.0/samvideo-darwin-arm64.tar.gz"
+       }
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "note_ms_revision": "MS 直链统一使用 Revision=master（latest-only；catalog 每次发版重写，无需 tag 锁定）",
+ "note_catalog_v2": "v2: 补录 samvnc/teambot/zagent mac/linux 条目与 samcommand 产品；site 渠道 = samai.cc 站点镜像（wf 同步 latest-only）；ms 直链统一 Revision=master"
 }
