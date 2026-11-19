@@ -1,6 +1,6 @@
 {
  "schema": "samai.catalog/1.0",
- "updated": "2026-11-19T03:30:54+00:00",
+ "updated": "2026-11-19T03:37:05+00:00",
  "channels": {
   "ms": {
    "endpoint": "https://modelscope.cn",
@@ -643,7 +643,7 @@
     "win": {
      "name": "samvideo-windows-amd64.zip",
      "kind": "portable",
-     "sha256": "6b26b5c514ac500a3cf7ebb1b149ba0b41b34e7b46c281671a07f887db9a65b5",
+     "sha256": "8d7c4b019f36af97e4327da002862dfb5d14d4da3510edad84433fe317a0532e",
      "size": 4155597,
      "url": {
       "github": "https://github.com/samaidev/samvideo/releases/download/v0.1.0/samvideo-windows-amd64.zip",
@@ -654,8 +654,8 @@
     "linux": {
      "name": "samvideo-linux-amd64.tar.gz",
      "kind": "portable",
-     "sha256": "c7a5cfb60cd7dc43abb958071aa01391829860346d4aa97e704482934b102dd0",
-     "size": 4033941,
+     "sha256": "31611bc34acdd44bd90b9ad5c73285e3bc33065c81e33930236247792a014832",
+     "size": 4033953,
      "url": {
       "github": "https://github.com/samaidev/samvideo/releases/download/v0.1.0/samvideo-linux-amd64.tar.gz",
       "hf": "https://huggingface.co/datasets/gasschina/samvideo-releases/resolve/main/v0.1.0/samvideo-linux-amd64.tar.gz",
@@ -665,8 +665,8 @@
       {
        "name": "samvideo-linux-arm64.tar.gz",
        "kind": "portable",
-       "sha256": "e69e25960424eb05661e5e338f191dcd33345823600f879cde5ad345e4e09c74",
-       "size": 3649896,
+       "sha256": "b4454e6c54e84dad773367978f0225dc1f8615f0001d8be1ab62cd09ecbea2ea",
+       "size": 3649895,
        "url": {
         "github": "https://github.com/samaidev/samvideo/releases/download/v0.1.0/samvideo-linux-arm64.tar.gz",
         "hf": "https://huggingface.co/datasets/gasschina/samvideo-releases/resolve/main/v0.1.0/samvideo-linux-arm64.tar.gz",
@@ -678,8 +678,8 @@
     "mac": {
      "name": "samvideo-darwin-amd64.tar.gz",
      "kind": "portable",
-     "sha256": "37ad110f5a18d5b0595a2fec4a8393ca2a0192373f9e7f046c979f8139e2ec66",
-     "size": 4092350,
+     "sha256": "0053155e52b64c885485113193e9225bbe21f5154c0a92a33f7c88988137a1a2",
+     "size": 4092356,
      "url": {
       "github": "https://github.com/samaidev/samvideo/releases/download/v0.1.0/samvideo-darwin-amd64.tar.gz",
       "hf": "https://huggingface.co/datasets/gasschina/samvideo-releases/resolve/main/v0.1.0/samvideo-darwin-amd64.tar.gz",
@@ -689,8 +689,8 @@
       {
        "name": "samvideo-darwin-arm64.tar.gz",
        "kind": "portable",
-       "sha256": "9e0b075834da7d37aae481be665880f2a3569758a3ffca600bbf42346734a091",
-       "size": 3785532,
+       "sha256": "3209ae78bc86be9c19c80641a1099f251a494cd2ae58ca2f1e0dfc2c3c468389",
+       "size": 3785529,
        "url": {
         "github": "https://github.com/samaidev/samvideo/releases/download/v0.1.0/samvideo-darwin-arm64.tar.gz",
         "hf": "https://huggingface.co/datasets/gasschina/samvideo-releases/resolve/main/v0.1.0/samvideo-darwin-arm64.tar.gz",
