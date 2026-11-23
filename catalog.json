@@ -1,6 +1,6 @@
 {
   "schema": "samai.catalog/1.0",
-  "updated": "2026-11-23T04:37:52+00:00",
+  "updated": "2026-11-23T06:31:00+00:00",
   "channels": {
     "ms": {
       "endpoint": "https://modelscope.cn",
@@ -69,7 +69,7 @@
       "platforms": [
         "win"
       ],
-      "latest": "0.8.5",
+      "latest": "0.8.6",
       "files": {
         "win": {
           "name": "SamOffice-setup-0.7.19.exe",
@@ -443,6 +443,28 @@
                 "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.5/SamOffice-setup-0.8.5.exe",
                 "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.5/SamOffice-setup-0.8.5.exe",
                 "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.5&FilePath=v0.8.5/SamOffice-setup-0.8.5.exe"
+              }
+            },
+            {
+              "name": "SamOffice-desktop-windows-x64-0.8.6.zip",
+              "kind": "portable",
+              "sha256": "716518a01dfb6edbda5e8529b7abe5eae7fd6f0da93bb7c352b716c20a8c7b82",
+              "size": 23612596,
+              "url": {
+                "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.6/SamOffice-desktop-windows-x64-0.8.6.zip",
+                "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.6/SamOffice-desktop-windows-x64-0.8.6.zip",
+                "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.6&FilePath=v0.8.6/SamOffice-desktop-windows-x64-0.8.6.zip"
+              }
+            },
+            {
+              "name": "SamOffice-setup-0.8.6.exe",
+              "kind": "installer",
+              "sha256": "53d70745b4b5fae56da3a82a6c53b9529005d9dbb4d267df535f6c746ec2294b",
+              "size": 19599047,
+              "url": {
+                "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.6/SamOffice-setup-0.8.6.exe",
+                "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.6/SamOffice-setup-0.8.6.exe",
+                "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.6&FilePath=v0.8.6/SamOffice-setup-0.8.6.exe"
               }
             }
           ]
