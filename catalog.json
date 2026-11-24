@@ -1,6 +1,6 @@
 {
   "schema": "samai.catalog/1.0",
-  "updated": "2026-11-24T01:56:41+00:00",
+  "updated": "2026-11-24T04:01:57+00:00",
   "channels": {
     "ms": {
       "endpoint": "https://modelscope.cn",
@@ -685,7 +685,7 @@
         "linux",
         "android"
       ],
-      "latest": "1.4.12",
+      "latest": "1.4.13",
       "files": {
         "android": {
           "name": "samcdp-android.apk",
@@ -707,6 +707,17 @@
                 "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.12/samcdp-android.apk",
                 "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.12/samcdp-android.apk",
                 "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.12&FilePath=v1.4.12/samcdp-android.apk"
+              }
+            },
+            {
+              "name": "samcdp-android.apk",
+              "kind": "portable",
+              "sha256": "4f0ed9f3a673faa20df08705c422410cc5e1e2981c70cf7629ea18195b3568ab",
+              "size": 10602903,
+              "url": {
+                "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.13/samcdp-android.apk",
+                "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.13/samcdp-android.apk",
+                "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.13&FilePath=v1.4.13/samcdp-android.apk"
               }
             }
           ]
@@ -754,6 +765,28 @@
                 "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.12/samcdp-darwin-arm64",
                 "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.12&FilePath=v1.4.12/samcdp-darwin-arm64"
               }
+            },
+            {
+              "name": "samcdp-darwin-amd64",
+              "kind": "portable",
+              "sha256": "d2949fc92d3e1cc77b9f9ca62cda6ca98fbb791335195af2326644008af8c005",
+              "size": 17222832,
+              "url": {
+                "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.13/samcdp-darwin-amd64",
+                "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.13/samcdp-darwin-amd64",
+                "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.13&FilePath=v1.4.13/samcdp-darwin-amd64"
+              }
+            },
+            {
+              "name": "samcdp-darwin-arm64",
+              "kind": "portable",
+              "sha256": "ac8ae24e1a3e69f18da51837ad01948dd75b6273baf9a2dca55a41eab361e420",
+              "size": 16358770,
+              "url": {
+                "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.13/samcdp-darwin-arm64",
+                "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.13/samcdp-darwin-arm64",
+                "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.13&FilePath=v1.4.13/samcdp-darwin-arm64"
+              }
             }
           ]
         },
@@ -777,6 +810,17 @@
                 "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.12/samcdp-linux-amd64",
                 "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.12/samcdp-linux-amd64",
                 "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.12&FilePath=v1.4.12/samcdp-linux-amd64"
+              }
+            },
+            {
+              "name": "samcdp-linux-amd64",
+              "kind": "portable",
+              "sha256": "53bab30b9e525ed3552f0b340a678b9c5b2a285c9766604c010efb0c0046d380",
+              "size": 18796696,
+              "url": {
+                "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.13/samcdp-linux-amd64",
+                "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.13/samcdp-linux-amd64",
+                "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.13&FilePath=v1.4.13/samcdp-linux-amd64"
               }
             }
           ]
@@ -823,6 +867,28 @@
                 "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.12/samcdp-windows-amd64.exe",
                 "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.12/samcdp-windows-amd64.exe",
                 "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.12&FilePath=v1.4.12/samcdp-windows-amd64.exe"
+              }
+            },
+            {
+              "name": "SamCDP-1.4.13-windows-amd64-setup.exe.exe",
+              "kind": "installer",
+              "sha256": "619728ef25931354800394d1dae148db71b1bc6efbd8cb75c3ca967d4a85c506",
+              "size": 10746757,
+              "url": {
+                "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.13/SamCDP-1.4.13-windows-amd64-setup.exe.exe",
+                "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.13/SamCDP-1.4.13-windows-amd64-setup.exe.exe",
+                "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.13&FilePath=v1.4.13/SamCDP-1.4.13-windows-amd64-setup.exe.exe"
+              }
+            },
+            {
+              "name": "samcdp-windows-amd64.exe",
+              "kind": "portable",
+              "sha256": "549b6100f81aa1dfc0e054b4ac495c67b660f71595d57ca52e78488faf3f5f17",
+              "size": 23138304,
+              "url": {
+                "github": "https://github.com/samaidev/samcdp/releases/download/v1.4.13/samcdp-windows-amd64.exe",
+                "hf": "https://huggingface.co/datasets/gasschina/samcdp-releases/resolve/main/v1.4.13/samcdp-windows-amd64.exe",
+                "ms": "https://modelscope.cn/api/v1/models/zhuqingshui168/samcdp-releases/repo?Revision=v1.4.13&FilePath=v1.4.13/samcdp-windows-amd64.exe"
               }
             }
           ]
