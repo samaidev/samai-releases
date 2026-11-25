@@ -69,658 +69,682 @@
       "platforms": [
         "win"
       ],
-      "latest": "0.8.17",
+      "latest": "0.8.18",
       "files": {
         "win": {
-          "name": "SamOffice-setup-0.8.17.exe",
+          "name": "SamOffice-setup-0.8.18.exe",
           "kind": "installer",
-          "sha256": "3c399bc6688e9419ee9ee497da509e310419fe4cc3b6a484da6bb1e82fc7d8db",
-          "size": 19805631,
+          "sha256": "de2e77bad0a34a01c42be9fef640222473fa40e548b6605abddd8d2cf1701ae8",
+          "size": 19797230,
           "url": {
-            "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.17/SamOffice-setup-0.8.17.exe",
-            "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.17/SamOffice-setup-0.8.17.exe",
-            "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.17&FilePath=v0.8.17/SamOffice-setup-0.8.17.exe"
+            "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.18/SamOffice-setup-0.8.18.exe",
+            "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.18/SamOffice-setup-0.8.18.exe",
+            "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.18&FilePath=v0.8.18/SamOffice-setup-0.8.18.exe"
           },
           "extras": [
             {
-              "name": "SamOffice-setup-0.7.19.exe",
+              "name": "SamOffice-setup-0.8.17.exe",
               "kind": "installer",
-              "sha256": "8c4e97f4444b88df46a92e2996bffd7e26ad3d4c6a268df17b9238f6fc4fbbb6",
-              "size": 20140875,
+              "sha256": "3c399bc6688e9419ee9ee497da509e310419fe4cc3b6a484da6bb1e82fc7d8db",
+              "size": 19805631,
               "url": {
-                "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.19/SamOffice-setup-0.7.19.exe",
-                "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.19/SamOffice-setup-0.7.19.exe",
-                "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=master&FilePath=v0.7.19/SamOffice-setup-0.7.19.exe"
+                "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.17/SamOffice-setup-0.8.17.exe",
+                "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.17/SamOffice-setup-0.8.17.exe",
+                "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.17&FilePath=v0.8.17/SamOffice-setup-0.8.17.exe"
               },
               "extras": [
                 {
-                  "name": "SamOffice-desktop-windows-x64-0.7.19.zip",
-                  "kind": "portable",
-                  "sha256": "3dd818faff9d32d2df968205b09f1e18be36051159a2575add564904c71af8d8",
-                  "size": 24412436,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.19/SamOffice-desktop-windows-x64-0.7.19.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.19/SamOffice-desktop-windows-x64-0.7.19.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=master&FilePath=v0.7.19/SamOffice-desktop-windows-x64-0.7.19.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.7.22.zip",
-                  "kind": "portable",
-                  "sha256": "cb4e9696e2f80a5548f8fddd43e692394d131d834a0d88fcc3f3ceae6b7bcab1",
-                  "size": 24415251,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.22/SamOffice-desktop-windows-x64-0.7.22.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.22/SamOffice-desktop-windows-x64-0.7.22.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.22&FilePath=v0.7.22/SamOffice-desktop-windows-x64-0.7.22.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.7.22.exe",
+                  "name": "SamOffice-setup-0.7.19.exe",
                   "kind": "installer",
-                  "sha256": "ac437662e450d31bd4361561b567ae5f882a09450d1923e90c545095a08dcc49",
-                  "size": 20142155,
+                  "sha256": "8c4e97f4444b88df46a92e2996bffd7e26ad3d4c6a268df17b9238f6fc4fbbb6",
+                  "size": 20140875,
                   "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.22/SamOffice-setup-0.7.22.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.22/SamOffice-setup-0.7.22.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.22&FilePath=v0.7.22/SamOffice-setup-0.7.22.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.7.23.zip",
-                  "kind": "portable",
-                  "sha256": "94df8ed274c9e59d28fb239b0071e10cd01cf5f0829339ae7213e8b6e7d23625",
-                  "size": 24415651,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.23/SamOffice-desktop-windows-x64-0.7.23.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.23/SamOffice-desktop-windows-x64-0.7.23.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.23&FilePath=v0.7.23/SamOffice-desktop-windows-x64-0.7.23.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.7.23.exe",
-                  "kind": "installer",
-                  "sha256": "e2f45c50fb1b784e3a2a1d7d8f99d12beacf0787749db87743c88b126e27de1e",
-                  "size": 20147807,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.23/SamOffice-setup-0.7.23.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.23/SamOffice-setup-0.7.23.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.23&FilePath=v0.7.23/SamOffice-setup-0.7.23.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.7.24.zip",
-                  "kind": "portable",
-                  "sha256": "53cd0594c3171678045f256570b20ff0646196164b568cd62b7a58d779a32bb2",
-                  "size": 24416236,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.24/SamOffice-desktop-windows-x64-0.7.24.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.24/SamOffice-desktop-windows-x64-0.7.24.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.24&FilePath=v0.7.24/SamOffice-desktop-windows-x64-0.7.24.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.7.24.exe",
-                  "kind": "installer",
-                  "sha256": "9e4724d6837d6791c7fdb661dadc030def5ee41bf9c94e6a82c5c6408468b2d8",
-                  "size": 20154040,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.24/SamOffice-setup-0.7.24.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.24/SamOffice-setup-0.7.24.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.24&FilePath=v0.7.24/SamOffice-setup-0.7.24.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.7.25.zip",
-                  "kind": "portable",
-                  "sha256": "8e227d51127cf97733939bf5a4ff6cd1ca28d29e1c928cc6d78bc3387ad74610",
-                  "size": 24416015,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.25/SamOffice-desktop-windows-x64-0.7.25.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.25/SamOffice-desktop-windows-x64-0.7.25.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.25&FilePath=v0.7.25/SamOffice-desktop-windows-x64-0.7.25.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.7.25.exe",
-                  "kind": "installer",
-                  "sha256": "e18bc7cc31ed052e8485ad56dd8b9ee9e9b71395fd7580b0f5f015168b5bce6f",
-                  "size": 20154271,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.25/SamOffice-setup-0.7.25.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.25/SamOffice-setup-0.7.25.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.25&FilePath=v0.7.25/SamOffice-setup-0.7.25.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.7.26.zip",
-                  "kind": "portable",
-                  "sha256": "0a971ad3b7631cae187ba19a3500a2d8e29499a969abe62f1e42655daa8ba02d",
-                  "size": 24418687,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.26/SamOffice-desktop-windows-x64-0.7.26.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.26/SamOffice-desktop-windows-x64-0.7.26.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.26&FilePath=v0.7.26/SamOffice-desktop-windows-x64-0.7.26.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.7.26.exe",
-                  "kind": "installer",
-                  "sha256": "565a37d8f126b022610cd9ad0fa0ee16f29b771e006b9014a6c3b10ba57e5fd5",
-                  "size": 20145363,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.26/SamOffice-setup-0.7.26.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.26/SamOffice-setup-0.7.26.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.26&FilePath=v0.7.26/SamOffice-setup-0.7.26.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.7.29.zip",
-                  "kind": "portable",
-                  "sha256": "b17c6972bd0eef30f5864c382fce68331e6ceb3bc9709415d2f845ae43de0e82",
-                  "size": 24450950,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.29/SamOffice-desktop-windows-x64-0.7.29.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.29/SamOffice-desktop-windows-x64-0.7.29.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.29&FilePath=v0.7.29/SamOffice-desktop-windows-x64-0.7.29.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.7.29.exe",
-                  "kind": "installer",
-                  "sha256": "479fd7c6c47e7c49773375b342b9ae189386bfac8f8fbae74c0091b52cde2c4c",
-                  "size": 20165986,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.29/SamOffice-setup-0.7.29.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.29/SamOffice-setup-0.7.29.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.29&FilePath=v0.7.29/SamOffice-setup-0.7.29.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.7.30.zip",
-                  "kind": "portable",
-                  "sha256": "c3f0b6eafd3aab849f8926a5bb4af8563df192fb929fdd05a48288309ed131e7",
-                  "size": 24463131,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.30/SamOffice-desktop-windows-x64-0.7.30.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.30/SamOffice-desktop-windows-x64-0.7.30.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.30&FilePath=v0.7.30/SamOffice-desktop-windows-x64-0.7.30.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.7.30.exe",
-                  "kind": "installer",
-                  "sha256": "b525bde9fe63e553a24a2ffd3242c63e69ae1d95b9e2a9a491cc4f6325048d35",
-                  "size": 20167935,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.30/SamOffice-setup-0.7.30.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.30/SamOffice-setup-0.7.30.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.30&FilePath=v0.7.30/SamOffice-setup-0.7.30.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.7.31.zip",
-                  "kind": "portable",
-                  "sha256": "fec94b9b058f67c75c99d9f182f3966cf73d6951bb067f3d652dd46102b60a75",
-                  "size": 24463593,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.31/SamOffice-desktop-windows-x64-0.7.31.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.31/SamOffice-desktop-windows-x64-0.7.31.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.31&FilePath=v0.7.31/SamOffice-desktop-windows-x64-0.7.31.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.7.31.exe",
-                  "kind": "installer",
-                  "sha256": "87ca8b77ef190b45ba3b8a3ead394a9dae73bae7e1515c856ad85a74f207b34a",
-                  "size": 20174951,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.31/SamOffice-setup-0.7.31.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.31/SamOffice-setup-0.7.31.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.31&FilePath=v0.7.31/SamOffice-setup-0.7.31.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.7.32.zip",
-                  "kind": "portable",
-                  "sha256": "dc7e3efd5335b3ffb102724cc99afa25975a09b42f22564d3d576d9a619aaa61",
-                  "size": 24468158,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.32/SamOffice-desktop-windows-x64-0.7.32.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.32/SamOffice-desktop-windows-x64-0.7.32.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.32&FilePath=v0.7.32/SamOffice-desktop-windows-x64-0.7.32.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.7.32.exe",
-                  "kind": "installer",
-                  "sha256": "738a044ddcb29cb64531ea68148ccaf1bcbaa12e4394163702daebe2a246151a",
-                  "size": 20173621,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.32/SamOffice-setup-0.7.32.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.32/SamOffice-setup-0.7.32.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.32&FilePath=v0.7.32/SamOffice-setup-0.7.32.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.7.33.zip",
-                  "kind": "portable",
-                  "sha256": "22153fd90f29a21aec88a38a68b07491c4a0974d0a4f2524b42329e7d2a7fcdc",
-                  "size": 24471013,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.33/SamOffice-desktop-windows-x64-0.7.33.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.33/SamOffice-desktop-windows-x64-0.7.33.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.33&FilePath=v0.7.33/SamOffice-desktop-windows-x64-0.7.33.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.7.33.exe",
-                  "kind": "installer",
-                  "sha256": "a2288626a42f12405ea2c8cf6d9de0e028401ee573dc3a1518baee17e4cd1af8",
-                  "size": 20174963,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.33/SamOffice-setup-0.7.33.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.33/SamOffice-setup-0.7.33.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.33&FilePath=v0.7.33/SamOffice-setup-0.7.33.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.8.0.zip",
-                  "kind": "portable",
-                  "sha256": "a0af897afe86791e9fd61a39f14d4c680d3fc192d63289d2b485e98f4544cd74",
-                  "size": 24483872,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.0/SamOffice-desktop-windows-x64-0.8.0.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.0/SamOffice-desktop-windows-x64-0.8.0.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.0&FilePath=v0.8.0/SamOffice-desktop-windows-x64-0.8.0.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.8.0.exe",
-                  "kind": "installer",
-                  "sha256": "99adc378764802a1297232fe054bc5147bdcb066222e66f08f6c5b80cd740e5d",
-                  "size": 20185288,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.0/SamOffice-setup-0.8.0.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.0/SamOffice-setup-0.8.0.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.0&FilePath=v0.8.0/SamOffice-setup-0.8.0.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.8.1.zip",
-                  "kind": "portable",
-                  "sha256": "f308657ecd4e8b6b07b5bf3b99ba61490fa6c593363f0230a5a05c7c31603c9a",
-                  "size": 23556656,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.1/SamOffice-desktop-windows-x64-0.8.1.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.1/SamOffice-desktop-windows-x64-0.8.1.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.1&FilePath=v0.8.1/SamOffice-desktop-windows-x64-0.8.1.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.8.1.exe",
-                  "kind": "installer",
-                  "sha256": "5018d4c4a1b16cd0dcbf3b8344926af5b930a4776f9ce214672fb88979291241",
-                  "size": 19539569,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.1/SamOffice-setup-0.8.1.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.1/SamOffice-setup-0.8.1.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.1&FilePath=v0.8.1/SamOffice-setup-0.8.1.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.8.2.zip",
-                  "kind": "portable",
-                  "sha256": "4a7779409b62dd6122a89214407fd19a858686377a5ba1cad32d1cda9bdc902b",
-                  "size": 23558061,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.2/SamOffice-desktop-windows-x64-0.8.2.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.2/SamOffice-desktop-windows-x64-0.8.2.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.2&FilePath=v0.8.2/SamOffice-desktop-windows-x64-0.8.2.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.8.2.exe",
-                  "kind": "installer",
-                  "sha256": "d1d8f2a1213d127bf2a6a2e7e49500164e699307e437fcbcd91ba98dcccf1f63",
-                  "size": 19537651,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.2/SamOffice-setup-0.8.2.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.2/SamOffice-setup-0.8.2.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.2&FilePath=v0.8.2/SamOffice-setup-0.8.2.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.8.3.zip",
-                  "kind": "portable",
-                  "sha256": "57ada2e47666bcfa0b817fe464e3c5fc8db11c0d137041f4c82622a2d439de53",
-                  "size": 23570182,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.3/SamOffice-desktop-windows-x64-0.8.3.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.3/SamOffice-desktop-windows-x64-0.8.3.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.3&FilePath=v0.8.3/SamOffice-desktop-windows-x64-0.8.3.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.8.3.exe",
-                  "kind": "installer",
-                  "sha256": "43bb8581b84a40272c85e289608699144f978e2111c542eedc181f98adb5e284",
-                  "size": 19565603,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.3/SamOffice-setup-0.8.3.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.3/SamOffice-setup-0.8.3.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.3&FilePath=v0.8.3/SamOffice-setup-0.8.3.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.8.4.zip",
-                  "kind": "portable",
-                  "sha256": "27ee3d557c0bd95afc10587f53de6d48a1724e41fb648b0e03d06e30f2f11a30",
-                  "size": 23588286,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.4/SamOffice-desktop-windows-x64-0.8.4.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.4/SamOffice-desktop-windows-x64-0.8.4.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.4&FilePath=v0.8.4/SamOffice-desktop-windows-x64-0.8.4.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.8.4.exe",
-                  "kind": "installer",
-                  "sha256": "1588b9f555117f105bb1a2a5d1fa44fb9400d0d149fa32c753c12c31bb6f812c",
-                  "size": 19578747,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.4/SamOffice-setup-0.8.4.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.4/SamOffice-setup-0.8.4.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.4&FilePath=v0.8.4/SamOffice-setup-0.8.4.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.8.5.zip",
-                  "kind": "portable",
-                  "sha256": "108e6b4071088473ac2ec91677aa2d0ac91a78a946c9b49950be28049cb49d5f",
-                  "size": 23592925,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.5/SamOffice-desktop-windows-x64-0.8.5.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.5/SamOffice-desktop-windows-x64-0.8.5.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.5&FilePath=v0.8.5/SamOffice-desktop-windows-x64-0.8.5.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.8.5.exe",
-                  "kind": "installer",
-                  "sha256": "88b1a6a9815b6e1240c479e2e8f18a3817b12f2fca64a6963f2c04ef0df9b2fa",
-                  "size": 19582924,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.5/SamOffice-setup-0.8.5.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.5/SamOffice-setup-0.8.5.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.5&FilePath=v0.8.5/SamOffice-setup-0.8.5.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.8.6.zip",
-                  "kind": "portable",
-                  "sha256": "716518a01dfb6edbda5e8529b7abe5eae7fd6f0da93bb7c352b716c20a8c7b82",
-                  "size": 23612596,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.6/SamOffice-desktop-windows-x64-0.8.6.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.6/SamOffice-desktop-windows-x64-0.8.6.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.6&FilePath=v0.8.6/SamOffice-desktop-windows-x64-0.8.6.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.8.6.exe",
-                  "kind": "installer",
-                  "sha256": "53d70745b4b5fae56da3a82a6c53b9529005d9dbb4d267df535f6c746ec2294b",
-                  "size": 19599047,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.6/SamOffice-setup-0.8.6.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.6/SamOffice-setup-0.8.6.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.6&FilePath=v0.8.6/SamOffice-setup-0.8.6.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.8.7.zip",
-                  "kind": "portable",
-                  "sha256": "690535334367280f51141dcb9e55318882512c759d878b75c73e575076f14514",
-                  "size": 23632271,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.7/SamOffice-desktop-windows-x64-0.8.7.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.7/SamOffice-desktop-windows-x64-0.8.7.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.7&FilePath=v0.8.7/SamOffice-desktop-windows-x64-0.8.7.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.8.7.exe",
-                  "kind": "installer",
-                  "sha256": "553271f55ec01f886a469256a5d711237b2f4e697db093720dc07f5e6935e72d",
-                  "size": 19626203,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.7/SamOffice-setup-0.8.7.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.7/SamOffice-setup-0.8.7.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.7&FilePath=v0.8.7/SamOffice-setup-0.8.7.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.8.8.zip",
-                  "kind": "portable",
-                  "sha256": "7740cde14ec603a20d88932664441f8b8f53192879ad9b4c00368144c9903679",
-                  "size": 23633334,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.8/SamOffice-desktop-windows-x64-0.8.8.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.8/SamOffice-desktop-windows-x64-0.8.8.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.8&FilePath=v0.8.8/SamOffice-desktop-windows-x64-0.8.8.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.8.8.exe",
-                  "kind": "installer",
-                  "sha256": "9598e829b6deb7efc6e54c73fcc7af08d5dbab284dc4f9acd663ab0b850d1865",
-                  "size": 19614476,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.8/SamOffice-setup-0.8.8.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.8/SamOffice-setup-0.8.8.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.8&FilePath=v0.8.8/SamOffice-setup-0.8.8.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.8.9.zip",
-                  "kind": "portable",
-                  "sha256": "6410f91fd2d7b3fa984a70176fbd8a15577233a9e8a5da1872e708c08dc9cf89",
-                  "size": 23772954,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.9/SamOffice-desktop-windows-x64-0.8.9.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.9/SamOffice-desktop-windows-x64-0.8.9.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.9&FilePath=v0.8.9/SamOffice-desktop-windows-x64-0.8.9.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.8.9.exe",
-                  "kind": "installer",
-                  "sha256": "8ff755f0467ef17f625eacae85f776767c13c39422ca133e6c0d43e35877d910",
-                  "size": 19695260,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.9/SamOffice-setup-0.8.9.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.9/SamOffice-setup-0.8.9.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.9&FilePath=v0.8.9/SamOffice-setup-0.8.9.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.8.10.zip",
-                  "kind": "portable",
-                  "sha256": "acaa0928693f8f6d0994a0ce6eb4aab6fa535a3002deba6c4c4922cee05dac70",
-                  "size": 23847069,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.10/SamOffice-desktop-windows-x64-0.8.10.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.10/SamOffice-desktop-windows-x64-0.8.10.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.10&FilePath=v0.8.10/SamOffice-desktop-windows-x64-0.8.10.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.8.10.exe",
-                  "kind": "installer",
-                  "sha256": "4deb6c2e26c00f4f9db439583c4464ca9a74353de250e37d059bf7df502d3c4f",
-                  "size": 19744323,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.10/SamOffice-setup-0.8.10.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.10/SamOffice-setup-0.8.10.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.10&FilePath=v0.8.10/SamOffice-setup-0.8.10.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.8.11.zip",
-                  "kind": "portable",
-                  "sha256": "1db400b8a3ede7746c1775ce1ef1b122d878292f1fe013c51e62e5d30dc99666",
-                  "size": 23865933,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.11/SamOffice-desktop-windows-x64-0.8.11.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.11/SamOffice-desktop-windows-x64-0.8.11.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.11&FilePath=v0.8.11/SamOffice-desktop-windows-x64-0.8.11.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.8.11.exe",
-                  "kind": "installer",
-                  "sha256": "06f3b89a2ec1b45fda1e53e750ff36ebb8f794c9090ceb7492621c445586f955",
-                  "size": 19776379,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.11/SamOffice-setup-0.8.11.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.11/SamOffice-setup-0.8.11.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.11&FilePath=v0.8.11/SamOffice-setup-0.8.11.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.8.12.zip",
-                  "kind": "portable",
-                  "sha256": "2257d3af22a221692203fcd8cdd2fd467731473f4ee1d1af5469e71b8b14c45f",
-                  "size": 23874760,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.12/SamOffice-desktop-windows-x64-0.8.12.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.12/SamOffice-desktop-windows-x64-0.8.12.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.12&FilePath=v0.8.12/SamOffice-desktop-windows-x64-0.8.12.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.8.12.exe",
-                  "kind": "installer",
-                  "sha256": "3867ced377d4484dad4355232ad5a0e96beb8d1cdeb0b1042041cfc84dc639f7",
-                  "size": 19762538,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.12/SamOffice-setup-0.8.12.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.12/SamOffice-setup-0.8.12.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.12&FilePath=v0.8.12/SamOffice-setup-0.8.12.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.8.13.zip",
-                  "kind": "portable",
-                  "sha256": "55945d9139071db1631847f3380c4a306842931f3d234bd5aed1d406d7b285d9",
-                  "size": 23880538,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.13/SamOffice-desktop-windows-x64-0.8.13.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.13/SamOffice-desktop-windows-x64-0.8.13.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.13&FilePath=v0.8.13/SamOffice-desktop-windows-x64-0.8.13.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.8.13.exe",
-                  "kind": "installer",
-                  "sha256": "d2b0e7bc6940053f4abf1fe29ac668084d6e7142499ac3254417b40eb0e85880",
-                  "size": 19772557,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.13/SamOffice-setup-0.8.13.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.13/SamOffice-setup-0.8.13.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.13&FilePath=v0.8.13/SamOffice-setup-0.8.13.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.8.14.zip",
-                  "kind": "portable",
-                  "sha256": "e103d057435edad4284f8d859018673e3adfbce86b13206f653ffe7165e369d7",
-                  "size": 23894435,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.14/SamOffice-desktop-windows-x64-0.8.14.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.14/SamOffice-desktop-windows-x64-0.8.14.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.14&FilePath=v0.8.14/SamOffice-desktop-windows-x64-0.8.14.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.8.14.exe",
-                  "kind": "installer",
-                  "sha256": "6ab972c297e37529fdf3c68895b6c2a54002cedc2958137be73f376870ddc252",
-                  "size": 19784678,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.14/SamOffice-setup-0.8.14.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.14/SamOffice-setup-0.8.14.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.14&FilePath=v0.8.14/SamOffice-setup-0.8.14.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.8.15.zip",
-                  "kind": "portable",
-                  "sha256": "cd406336ee9ddd8d1730ef681e4d58cf2b400ef051b217ad858e7c24c5828cd3",
-                  "size": 23911295,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.15/SamOffice-desktop-windows-x64-0.8.15.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.15/SamOffice-desktop-windows-x64-0.8.15.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.15&FilePath=v0.8.15/SamOffice-desktop-windows-x64-0.8.15.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.8.15.exe",
-                  "kind": "installer",
-                  "sha256": "d209474b4adf3af66644ab16783d88a6f04e1021948fdf27e9a00f91d8ba9c08",
-                  "size": 19800818,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.15/SamOffice-setup-0.8.15.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.15/SamOffice-setup-0.8.15.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.15&FilePath=v0.8.15/SamOffice-setup-0.8.15.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.8.16.zip",
-                  "kind": "portable",
-                  "sha256": "e1417715237509cb65705854bf442247eb00919be52af0722d8457663cca08e6",
-                  "size": 23911759,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.16/SamOffice-desktop-windows-x64-0.8.16.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.16/SamOffice-desktop-windows-x64-0.8.16.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.16&FilePath=v0.8.16/SamOffice-desktop-windows-x64-0.8.16.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.8.16.exe",
-                  "kind": "installer",
-                  "sha256": "7e873441ced886f536112b7b3368417e27d65a5f06c8ed5d8144f586d3bda46e",
-                  "size": 19798393,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.16/SamOffice-setup-0.8.16.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.16/SamOffice-setup-0.8.16.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.16&FilePath=v0.8.16/SamOffice-setup-0.8.16.exe"
-                  }
-                },
-                {
-                  "name": "SamOffice-desktop-windows-x64-0.8.17.zip",
-                  "kind": "portable",
-                  "sha256": "0cbba9af75663e334e922e5be591e6a7135738921fdedee1066e978d2211861d",
-                  "size": 23913866,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.17/SamOffice-desktop-windows-x64-0.8.17.zip",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.17/SamOffice-desktop-windows-x64-0.8.17.zip",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.17&FilePath=v0.8.17/SamOffice-desktop-windows-x64-0.8.17.zip"
-                  }
-                },
-                {
-                  "name": "SamOffice-setup-0.8.17.exe",
-                  "kind": "installer",
-                  "sha256": "3c399bc6688e9419ee9ee497da509e310419fe4cc3b6a484da6bb1e82fc7d8db",
-                  "size": 19805631,
-                  "url": {
-                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.17/SamOffice-setup-0.8.17.exe",
-                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.17/SamOffice-setup-0.8.17.exe",
-                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.17&FilePath=v0.8.17/SamOffice-setup-0.8.17.exe"
-                  }
+                    "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.19/SamOffice-setup-0.7.19.exe",
+                    "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.19/SamOffice-setup-0.7.19.exe",
+                    "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=master&FilePath=v0.7.19/SamOffice-setup-0.7.19.exe"
+                  },
+                  "extras": [
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.7.19.zip",
+                      "kind": "portable",
+                      "sha256": "3dd818faff9d32d2df968205b09f1e18be36051159a2575add564904c71af8d8",
+                      "size": 24412436,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.19/SamOffice-desktop-windows-x64-0.7.19.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.19/SamOffice-desktop-windows-x64-0.7.19.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=master&FilePath=v0.7.19/SamOffice-desktop-windows-x64-0.7.19.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.7.22.zip",
+                      "kind": "portable",
+                      "sha256": "cb4e9696e2f80a5548f8fddd43e692394d131d834a0d88fcc3f3ceae6b7bcab1",
+                      "size": 24415251,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.22/SamOffice-desktop-windows-x64-0.7.22.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.22/SamOffice-desktop-windows-x64-0.7.22.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.22&FilePath=v0.7.22/SamOffice-desktop-windows-x64-0.7.22.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.7.22.exe",
+                      "kind": "installer",
+                      "sha256": "ac437662e450d31bd4361561b567ae5f882a09450d1923e90c545095a08dcc49",
+                      "size": 20142155,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.22/SamOffice-setup-0.7.22.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.22/SamOffice-setup-0.7.22.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.22&FilePath=v0.7.22/SamOffice-setup-0.7.22.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.7.23.zip",
+                      "kind": "portable",
+                      "sha256": "94df8ed274c9e59d28fb239b0071e10cd01cf5f0829339ae7213e8b6e7d23625",
+                      "size": 24415651,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.23/SamOffice-desktop-windows-x64-0.7.23.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.23/SamOffice-desktop-windows-x64-0.7.23.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.23&FilePath=v0.7.23/SamOffice-desktop-windows-x64-0.7.23.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.7.23.exe",
+                      "kind": "installer",
+                      "sha256": "e2f45c50fb1b784e3a2a1d7d8f99d12beacf0787749db87743c88b126e27de1e",
+                      "size": 20147807,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.23/SamOffice-setup-0.7.23.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.23/SamOffice-setup-0.7.23.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.23&FilePath=v0.7.23/SamOffice-setup-0.7.23.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.7.24.zip",
+                      "kind": "portable",
+                      "sha256": "53cd0594c3171678045f256570b20ff0646196164b568cd62b7a58d779a32bb2",
+                      "size": 24416236,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.24/SamOffice-desktop-windows-x64-0.7.24.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.24/SamOffice-desktop-windows-x64-0.7.24.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.24&FilePath=v0.7.24/SamOffice-desktop-windows-x64-0.7.24.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.7.24.exe",
+                      "kind": "installer",
+                      "sha256": "9e4724d6837d6791c7fdb661dadc030def5ee41bf9c94e6a82c5c6408468b2d8",
+                      "size": 20154040,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.24/SamOffice-setup-0.7.24.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.24/SamOffice-setup-0.7.24.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.24&FilePath=v0.7.24/SamOffice-setup-0.7.24.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.7.25.zip",
+                      "kind": "portable",
+                      "sha256": "8e227d51127cf97733939bf5a4ff6cd1ca28d29e1c928cc6d78bc3387ad74610",
+                      "size": 24416015,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.25/SamOffice-desktop-windows-x64-0.7.25.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.25/SamOffice-desktop-windows-x64-0.7.25.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.25&FilePath=v0.7.25/SamOffice-desktop-windows-x64-0.7.25.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.7.25.exe",
+                      "kind": "installer",
+                      "sha256": "e18bc7cc31ed052e8485ad56dd8b9ee9e9b71395fd7580b0f5f015168b5bce6f",
+                      "size": 20154271,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.25/SamOffice-setup-0.7.25.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.25/SamOffice-setup-0.7.25.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.25&FilePath=v0.7.25/SamOffice-setup-0.7.25.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.7.26.zip",
+                      "kind": "portable",
+                      "sha256": "0a971ad3b7631cae187ba19a3500a2d8e29499a969abe62f1e42655daa8ba02d",
+                      "size": 24418687,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.26/SamOffice-desktop-windows-x64-0.7.26.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.26/SamOffice-desktop-windows-x64-0.7.26.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.26&FilePath=v0.7.26/SamOffice-desktop-windows-x64-0.7.26.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.7.26.exe",
+                      "kind": "installer",
+                      "sha256": "565a37d8f126b022610cd9ad0fa0ee16f29b771e006b9014a6c3b10ba57e5fd5",
+                      "size": 20145363,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.26/SamOffice-setup-0.7.26.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.26/SamOffice-setup-0.7.26.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.26&FilePath=v0.7.26/SamOffice-setup-0.7.26.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.7.29.zip",
+                      "kind": "portable",
+                      "sha256": "b17c6972bd0eef30f5864c382fce68331e6ceb3bc9709415d2f845ae43de0e82",
+                      "size": 24450950,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.29/SamOffice-desktop-windows-x64-0.7.29.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.29/SamOffice-desktop-windows-x64-0.7.29.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.29&FilePath=v0.7.29/SamOffice-desktop-windows-x64-0.7.29.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.7.29.exe",
+                      "kind": "installer",
+                      "sha256": "479fd7c6c47e7c49773375b342b9ae189386bfac8f8fbae74c0091b52cde2c4c",
+                      "size": 20165986,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.29/SamOffice-setup-0.7.29.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.29/SamOffice-setup-0.7.29.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.29&FilePath=v0.7.29/SamOffice-setup-0.7.29.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.7.30.zip",
+                      "kind": "portable",
+                      "sha256": "c3f0b6eafd3aab849f8926a5bb4af8563df192fb929fdd05a48288309ed131e7",
+                      "size": 24463131,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.30/SamOffice-desktop-windows-x64-0.7.30.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.30/SamOffice-desktop-windows-x64-0.7.30.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.30&FilePath=v0.7.30/SamOffice-desktop-windows-x64-0.7.30.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.7.30.exe",
+                      "kind": "installer",
+                      "sha256": "b525bde9fe63e553a24a2ffd3242c63e69ae1d95b9e2a9a491cc4f6325048d35",
+                      "size": 20167935,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.30/SamOffice-setup-0.7.30.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.30/SamOffice-setup-0.7.30.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.30&FilePath=v0.7.30/SamOffice-setup-0.7.30.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.7.31.zip",
+                      "kind": "portable",
+                      "sha256": "fec94b9b058f67c75c99d9f182f3966cf73d6951bb067f3d652dd46102b60a75",
+                      "size": 24463593,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.31/SamOffice-desktop-windows-x64-0.7.31.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.31/SamOffice-desktop-windows-x64-0.7.31.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.31&FilePath=v0.7.31/SamOffice-desktop-windows-x64-0.7.31.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.7.31.exe",
+                      "kind": "installer",
+                      "sha256": "87ca8b77ef190b45ba3b8a3ead394a9dae73bae7e1515c856ad85a74f207b34a",
+                      "size": 20174951,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.31/SamOffice-setup-0.7.31.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.31/SamOffice-setup-0.7.31.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.31&FilePath=v0.7.31/SamOffice-setup-0.7.31.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.7.32.zip",
+                      "kind": "portable",
+                      "sha256": "dc7e3efd5335b3ffb102724cc99afa25975a09b42f22564d3d576d9a619aaa61",
+                      "size": 24468158,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.32/SamOffice-desktop-windows-x64-0.7.32.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.32/SamOffice-desktop-windows-x64-0.7.32.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.32&FilePath=v0.7.32/SamOffice-desktop-windows-x64-0.7.32.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.7.32.exe",
+                      "kind": "installer",
+                      "sha256": "738a044ddcb29cb64531ea68148ccaf1bcbaa12e4394163702daebe2a246151a",
+                      "size": 20173621,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.32/SamOffice-setup-0.7.32.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.32/SamOffice-setup-0.7.32.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.32&FilePath=v0.7.32/SamOffice-setup-0.7.32.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.7.33.zip",
+                      "kind": "portable",
+                      "sha256": "22153fd90f29a21aec88a38a68b07491c4a0974d0a4f2524b42329e7d2a7fcdc",
+                      "size": 24471013,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.33/SamOffice-desktop-windows-x64-0.7.33.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.33/SamOffice-desktop-windows-x64-0.7.33.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.33&FilePath=v0.7.33/SamOffice-desktop-windows-x64-0.7.33.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.7.33.exe",
+                      "kind": "installer",
+                      "sha256": "a2288626a42f12405ea2c8cf6d9de0e028401ee573dc3a1518baee17e4cd1af8",
+                      "size": 20174963,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.7.33/SamOffice-setup-0.7.33.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.7.33/SamOffice-setup-0.7.33.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.7.33&FilePath=v0.7.33/SamOffice-setup-0.7.33.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.8.0.zip",
+                      "kind": "portable",
+                      "sha256": "a0af897afe86791e9fd61a39f14d4c680d3fc192d63289d2b485e98f4544cd74",
+                      "size": 24483872,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.0/SamOffice-desktop-windows-x64-0.8.0.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.0/SamOffice-desktop-windows-x64-0.8.0.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.0&FilePath=v0.8.0/SamOffice-desktop-windows-x64-0.8.0.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.8.0.exe",
+                      "kind": "installer",
+                      "sha256": "99adc378764802a1297232fe054bc5147bdcb066222e66f08f6c5b80cd740e5d",
+                      "size": 20185288,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.0/SamOffice-setup-0.8.0.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.0/SamOffice-setup-0.8.0.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.0&FilePath=v0.8.0/SamOffice-setup-0.8.0.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.8.1.zip",
+                      "kind": "portable",
+                      "sha256": "f308657ecd4e8b6b07b5bf3b99ba61490fa6c593363f0230a5a05c7c31603c9a",
+                      "size": 23556656,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.1/SamOffice-desktop-windows-x64-0.8.1.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.1/SamOffice-desktop-windows-x64-0.8.1.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.1&FilePath=v0.8.1/SamOffice-desktop-windows-x64-0.8.1.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.8.1.exe",
+                      "kind": "installer",
+                      "sha256": "5018d4c4a1b16cd0dcbf3b8344926af5b930a4776f9ce214672fb88979291241",
+                      "size": 19539569,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.1/SamOffice-setup-0.8.1.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.1/SamOffice-setup-0.8.1.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.1&FilePath=v0.8.1/SamOffice-setup-0.8.1.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.8.2.zip",
+                      "kind": "portable",
+                      "sha256": "4a7779409b62dd6122a89214407fd19a858686377a5ba1cad32d1cda9bdc902b",
+                      "size": 23558061,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.2/SamOffice-desktop-windows-x64-0.8.2.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.2/SamOffice-desktop-windows-x64-0.8.2.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.2&FilePath=v0.8.2/SamOffice-desktop-windows-x64-0.8.2.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.8.2.exe",
+                      "kind": "installer",
+                      "sha256": "d1d8f2a1213d127bf2a6a2e7e49500164e699307e437fcbcd91ba98dcccf1f63",
+                      "size": 19537651,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.2/SamOffice-setup-0.8.2.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.2/SamOffice-setup-0.8.2.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.2&FilePath=v0.8.2/SamOffice-setup-0.8.2.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.8.3.zip",
+                      "kind": "portable",
+                      "sha256": "57ada2e47666bcfa0b817fe464e3c5fc8db11c0d137041f4c82622a2d439de53",
+                      "size": 23570182,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.3/SamOffice-desktop-windows-x64-0.8.3.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.3/SamOffice-desktop-windows-x64-0.8.3.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.3&FilePath=v0.8.3/SamOffice-desktop-windows-x64-0.8.3.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.8.3.exe",
+                      "kind": "installer",
+                      "sha256": "43bb8581b84a40272c85e289608699144f978e2111c542eedc181f98adb5e284",
+                      "size": 19565603,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.3/SamOffice-setup-0.8.3.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.3/SamOffice-setup-0.8.3.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.3&FilePath=v0.8.3/SamOffice-setup-0.8.3.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.8.4.zip",
+                      "kind": "portable",
+                      "sha256": "27ee3d557c0bd95afc10587f53de6d48a1724e41fb648b0e03d06e30f2f11a30",
+                      "size": 23588286,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.4/SamOffice-desktop-windows-x64-0.8.4.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.4/SamOffice-desktop-windows-x64-0.8.4.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.4&FilePath=v0.8.4/SamOffice-desktop-windows-x64-0.8.4.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.8.4.exe",
+                      "kind": "installer",
+                      "sha256": "1588b9f555117f105bb1a2a5d1fa44fb9400d0d149fa32c753c12c31bb6f812c",
+                      "size": 19578747,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.4/SamOffice-setup-0.8.4.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.4/SamOffice-setup-0.8.4.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.4&FilePath=v0.8.4/SamOffice-setup-0.8.4.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.8.5.zip",
+                      "kind": "portable",
+                      "sha256": "108e6b4071088473ac2ec91677aa2d0ac91a78a946c9b49950be28049cb49d5f",
+                      "size": 23592925,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.5/SamOffice-desktop-windows-x64-0.8.5.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.5/SamOffice-desktop-windows-x64-0.8.5.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.5&FilePath=v0.8.5/SamOffice-desktop-windows-x64-0.8.5.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.8.5.exe",
+                      "kind": "installer",
+                      "sha256": "88b1a6a9815b6e1240c479e2e8f18a3817b12f2fca64a6963f2c04ef0df9b2fa",
+                      "size": 19582924,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.5/SamOffice-setup-0.8.5.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.5/SamOffice-setup-0.8.5.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.5&FilePath=v0.8.5/SamOffice-setup-0.8.5.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.8.6.zip",
+                      "kind": "portable",
+                      "sha256": "716518a01dfb6edbda5e8529b7abe5eae7fd6f0da93bb7c352b716c20a8c7b82",
+                      "size": 23612596,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.6/SamOffice-desktop-windows-x64-0.8.6.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.6/SamOffice-desktop-windows-x64-0.8.6.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.6&FilePath=v0.8.6/SamOffice-desktop-windows-x64-0.8.6.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.8.6.exe",
+                      "kind": "installer",
+                      "sha256": "53d70745b4b5fae56da3a82a6c53b9529005d9dbb4d267df535f6c746ec2294b",
+                      "size": 19599047,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.6/SamOffice-setup-0.8.6.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.6/SamOffice-setup-0.8.6.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.6&FilePath=v0.8.6/SamOffice-setup-0.8.6.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.8.7.zip",
+                      "kind": "portable",
+                      "sha256": "690535334367280f51141dcb9e55318882512c759d878b75c73e575076f14514",
+                      "size": 23632271,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.7/SamOffice-desktop-windows-x64-0.8.7.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.7/SamOffice-desktop-windows-x64-0.8.7.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.7&FilePath=v0.8.7/SamOffice-desktop-windows-x64-0.8.7.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.8.7.exe",
+                      "kind": "installer",
+                      "sha256": "553271f55ec01f886a469256a5d711237b2f4e697db093720dc07f5e6935e72d",
+                      "size": 19626203,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.7/SamOffice-setup-0.8.7.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.7/SamOffice-setup-0.8.7.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.7&FilePath=v0.8.7/SamOffice-setup-0.8.7.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.8.8.zip",
+                      "kind": "portable",
+                      "sha256": "7740cde14ec603a20d88932664441f8b8f53192879ad9b4c00368144c9903679",
+                      "size": 23633334,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.8/SamOffice-desktop-windows-x64-0.8.8.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.8/SamOffice-desktop-windows-x64-0.8.8.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.8&FilePath=v0.8.8/SamOffice-desktop-windows-x64-0.8.8.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.8.8.exe",
+                      "kind": "installer",
+                      "sha256": "9598e829b6deb7efc6e54c73fcc7af08d5dbab284dc4f9acd663ab0b850d1865",
+                      "size": 19614476,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.8/SamOffice-setup-0.8.8.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.8/SamOffice-setup-0.8.8.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.8&FilePath=v0.8.8/SamOffice-setup-0.8.8.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.8.9.zip",
+                      "kind": "portable",
+                      "sha256": "6410f91fd2d7b3fa984a70176fbd8a15577233a9e8a5da1872e708c08dc9cf89",
+                      "size": 23772954,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.9/SamOffice-desktop-windows-x64-0.8.9.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.9/SamOffice-desktop-windows-x64-0.8.9.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.9&FilePath=v0.8.9/SamOffice-desktop-windows-x64-0.8.9.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.8.9.exe",
+                      "kind": "installer",
+                      "sha256": "8ff755f0467ef17f625eacae85f776767c13c39422ca133e6c0d43e35877d910",
+                      "size": 19695260,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.9/SamOffice-setup-0.8.9.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.9/SamOffice-setup-0.8.9.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.9&FilePath=v0.8.9/SamOffice-setup-0.8.9.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.8.10.zip",
+                      "kind": "portable",
+                      "sha256": "acaa0928693f8f6d0994a0ce6eb4aab6fa535a3002deba6c4c4922cee05dac70",
+                      "size": 23847069,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.10/SamOffice-desktop-windows-x64-0.8.10.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.10/SamOffice-desktop-windows-x64-0.8.10.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.10&FilePath=v0.8.10/SamOffice-desktop-windows-x64-0.8.10.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.8.10.exe",
+                      "kind": "installer",
+                      "sha256": "4deb6c2e26c00f4f9db439583c4464ca9a74353de250e37d059bf7df502d3c4f",
+                      "size": 19744323,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.10/SamOffice-setup-0.8.10.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.10/SamOffice-setup-0.8.10.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.10&FilePath=v0.8.10/SamOffice-setup-0.8.10.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.8.11.zip",
+                      "kind": "portable",
+                      "sha256": "1db400b8a3ede7746c1775ce1ef1b122d878292f1fe013c51e62e5d30dc99666",
+                      "size": 23865933,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.11/SamOffice-desktop-windows-x64-0.8.11.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.11/SamOffice-desktop-windows-x64-0.8.11.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.11&FilePath=v0.8.11/SamOffice-desktop-windows-x64-0.8.11.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.8.11.exe",
+                      "kind": "installer",
+                      "sha256": "06f3b89a2ec1b45fda1e53e750ff36ebb8f794c9090ceb7492621c445586f955",
+                      "size": 19776379,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.11/SamOffice-setup-0.8.11.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.11/SamOffice-setup-0.8.11.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.11&FilePath=v0.8.11/SamOffice-setup-0.8.11.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.8.12.zip",
+                      "kind": "portable",
+                      "sha256": "2257d3af22a221692203fcd8cdd2fd467731473f4ee1d1af5469e71b8b14c45f",
+                      "size": 23874760,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.12/SamOffice-desktop-windows-x64-0.8.12.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.12/SamOffice-desktop-windows-x64-0.8.12.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.12&FilePath=v0.8.12/SamOffice-desktop-windows-x64-0.8.12.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.8.12.exe",
+                      "kind": "installer",
+                      "sha256": "3867ced377d4484dad4355232ad5a0e96beb8d1cdeb0b1042041cfc84dc639f7",
+                      "size": 19762538,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.12/SamOffice-setup-0.8.12.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.12/SamOffice-setup-0.8.12.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.12&FilePath=v0.8.12/SamOffice-setup-0.8.12.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.8.13.zip",
+                      "kind": "portable",
+                      "sha256": "55945d9139071db1631847f3380c4a306842931f3d234bd5aed1d406d7b285d9",
+                      "size": 23880538,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.13/SamOffice-desktop-windows-x64-0.8.13.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.13/SamOffice-desktop-windows-x64-0.8.13.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.13&FilePath=v0.8.13/SamOffice-desktop-windows-x64-0.8.13.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.8.13.exe",
+                      "kind": "installer",
+                      "sha256": "d2b0e7bc6940053f4abf1fe29ac668084d6e7142499ac3254417b40eb0e85880",
+                      "size": 19772557,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.13/SamOffice-setup-0.8.13.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.13/SamOffice-setup-0.8.13.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.13&FilePath=v0.8.13/SamOffice-setup-0.8.13.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.8.14.zip",
+                      "kind": "portable",
+                      "sha256": "e103d057435edad4284f8d859018673e3adfbce86b13206f653ffe7165e369d7",
+                      "size": 23894435,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.14/SamOffice-desktop-windows-x64-0.8.14.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.14/SamOffice-desktop-windows-x64-0.8.14.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.14&FilePath=v0.8.14/SamOffice-desktop-windows-x64-0.8.14.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.8.14.exe",
+                      "kind": "installer",
+                      "sha256": "6ab972c297e37529fdf3c68895b6c2a54002cedc2958137be73f376870ddc252",
+                      "size": 19784678,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.14/SamOffice-setup-0.8.14.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.14/SamOffice-setup-0.8.14.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.14&FilePath=v0.8.14/SamOffice-setup-0.8.14.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.8.15.zip",
+                      "kind": "portable",
+                      "sha256": "cd406336ee9ddd8d1730ef681e4d58cf2b400ef051b217ad858e7c24c5828cd3",
+                      "size": 23911295,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.15/SamOffice-desktop-windows-x64-0.8.15.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.15/SamOffice-desktop-windows-x64-0.8.15.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.15&FilePath=v0.8.15/SamOffice-desktop-windows-x64-0.8.15.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.8.15.exe",
+                      "kind": "installer",
+                      "sha256": "d209474b4adf3af66644ab16783d88a6f04e1021948fdf27e9a00f91d8ba9c08",
+                      "size": 19800818,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.15/SamOffice-setup-0.8.15.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.15/SamOffice-setup-0.8.15.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.15&FilePath=v0.8.15/SamOffice-setup-0.8.15.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.8.16.zip",
+                      "kind": "portable",
+                      "sha256": "e1417715237509cb65705854bf442247eb00919be52af0722d8457663cca08e6",
+                      "size": 23911759,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.16/SamOffice-desktop-windows-x64-0.8.16.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.16/SamOffice-desktop-windows-x64-0.8.16.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.16&FilePath=v0.8.16/SamOffice-desktop-windows-x64-0.8.16.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.8.16.exe",
+                      "kind": "installer",
+                      "sha256": "7e873441ced886f536112b7b3368417e27d65a5f06c8ed5d8144f586d3bda46e",
+                      "size": 19798393,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.16/SamOffice-setup-0.8.16.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.16/SamOffice-setup-0.8.16.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.16&FilePath=v0.8.16/SamOffice-setup-0.8.16.exe"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-desktop-windows-x64-0.8.17.zip",
+                      "kind": "portable",
+                      "sha256": "0cbba9af75663e334e922e5be591e6a7135738921fdedee1066e978d2211861d",
+                      "size": 23913866,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.17/SamOffice-desktop-windows-x64-0.8.17.zip",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.17/SamOffice-desktop-windows-x64-0.8.17.zip",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.17&FilePath=v0.8.17/SamOffice-desktop-windows-x64-0.8.17.zip"
+                      }
+                    },
+                    {
+                      "name": "SamOffice-setup-0.8.17.exe",
+                      "kind": "installer",
+                      "sha256": "3c399bc6688e9419ee9ee497da509e310419fe4cc3b6a484da6bb1e82fc7d8db",
+                      "size": 19805631,
+                      "url": {
+                        "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.17/SamOffice-setup-0.8.17.exe",
+                        "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.17/SamOffice-setup-0.8.17.exe",
+                        "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.17&FilePath=v0.8.17/SamOffice-setup-0.8.17.exe"
+                      }
+                    }
+                  ]
                 }
               ]
+            },
+            {
+              "name": "SamOffice-desktop-windows-x64-0.8.18.zip",
+              "kind": "portable",
+              "sha256": "450d46750e432ad7a86516894e4a3c92b82783db006019ee0f3baa44ad19686a",
+              "size": 23914745,
+              "url": {
+                "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.18/SamOffice-desktop-windows-x64-0.8.18.zip",
+                "hf": "https://huggingface.co/datasets/mojoz/samoffice-releases/resolve/main/v0.8.18/SamOffice-desktop-windows-x64-0.8.18.zip",
+                "ms": "https://modelscope.cn/api/v1/models/luoyunlan168/samoffice-releases/repo?Revision=v0.8.18&FilePath=v0.8.18/SamOffice-desktop-windows-x64-0.8.18.zip"
+              }
             }
           ]
         }
