@@ -69,24 +69,24 @@
       "platforms": [
         "win"
       ],
-      "latest": "0.8.20",
+      "latest": "0.8.21",
       "files": {
         "win": {
-          "name": "SamOffice-setup-0.8.20.exe",
+          "name": "SamOffice-setup-0.8.21.exe",
           "kind": "installer",
-          "size": 19804880,
-          "sha256": "60513edc79e850479a0f1ac554fa55ede19951c1b89f7d08734619ed4eeb6e8b",
+          "size": 19810770,
+          "sha256": "bcef361d04ab5a856f1a14e9f3360be937e9b4a72db7bee39a75ce4a0131a96a",
           "url": {
-            "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.20/SamOffice-setup-0.8.20.exe"
+            "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.21/SamOffice-setup-0.8.21.exe"
           },
           "extras": [
             {
-              "name": "SamOffice-desktop-windows-x64-0.8.20.zip",
+              "name": "SamOffice-desktop-windows-x64-0.8.21.zip",
               "kind": "portable",
-              "size": 23926939,
-              "sha256": "faaea7fc7236810e6fee575fef56676fe92c65e827eb10d1f8055dc748e90d52",
+              "size": 23933779,
+              "sha256": "4f031cf31a9f7133b86b5314f1755968f4c37c87a56925be3f0159ff30c930e3",
               "url": {
-                "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.20/SamOffice-desktop-windows-x64-0.8.20.zip"
+                "github": "https://github.com/samaidev/samoffice/releases/download/v0.8.21/SamOffice-desktop-windows-x64-0.8.21.zip"
               }
             }
           ]
